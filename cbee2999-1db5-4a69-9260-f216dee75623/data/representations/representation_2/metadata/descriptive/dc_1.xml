@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns="https://data.hetarchief.be/id/sip/1.0/basic" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xs="http://www.w3.org/2001/XMLSchema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edtf="http://id.loc.gov/datatypes/edtf/">
+
+  <!-- general title for the representation -->
+  <dcterms:title xml:lang="nl">Colour representation of the Felis Catus Flamens sitting on a cat tree</dcterms:title>
+
+  <!-- linking id between dc and premis -->
+  <dcterms:identifier>uuid-de83045d-3b0f-4161-9f96-40079af0d480</dcterms:identifier>
+
+  <!-- date when representation was created -->
+  <dcterms:created xsi:type="edtf:EDTF-level1">2022-01~</dcterms:created>
+
+  <!-- multiple keywords about the representation -->
+  <dcterms:subject xml:lang="nl">Cat</dcterms:subject>
+  <dcterms:subject xml:lang="nl">Felis Catus Flamens</dcterms:subject>
+  <dcterms:subject xml:lang="nl">Cat tree</dcterms:subject>
+
+</metadata> 
+ 

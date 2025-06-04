@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets xmlns="http://www.loc.gov/METS/" xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS"
+    xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
+    OBJID="uuid-2746e598-75cd-47b5-9a3e-8df18e98bb95"
+    PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP-v2-2-0.xml"
+    csip:CONTENTINFORMATIONTYPE="OTHER"
+    csip:OTHERCONTENTINFORMATIONTYPE="https://data.hetarchief.be/id/sip/2.1/film"
+    TYPE="Video – File-based and Physical Media"
+>
+
+    <metsHdr CREATEDATE="2023-11-17T10:01:15.014+02:00" csip:OAISPACKAGETYPE="SIP">
+        <!-- information about the software -->
+        <agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="SOFTWARE">
+            <name>meemoo SIP creator</name>
+            <note csip:NOTETYPE="SOFTWARE VERSION">0.1.0</note>
+        </agent>
+        <!-- information about the archival creator-->
+        <!-- in this case: the content partner -->
+        <agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
+            <name>archival creator</name>
+            <note csip:NOTETYPE="IDENTIFICATIONCODE">OR-jw86m54</note>
+        </agent>
+        <!-- information about the submitting organisation -->
+        <!-- in this case: the service provider -->
+        <agent ROLE="CREATOR" TYPE="ORGANIZATION">
+            <name>submitting organization</name>
+            <note csip:NOTETYPE="IDENTIFICATIONCODE">OR-183420s</note>
+        </agent>
+    </metsHdr>
+
+    <!-- ref to descriptive metadata about IE and carrier (representation) -->
+    <dmdSec ID="uuid-afaf863f-b9b5-48b4-88aa-1c2754bbafee" CREATED="2023-11-16T00:00:00+02:00">
+        <mdRef LOCTYPE="URL" MDTYPE="OTHER" xlink:type="simple"
+            xlink:href="metadata/descriptive/dc+schema.xml" MIMETYPE="text/xml" SIZE="1890"
+            CREATED="2023-11-16T00:00:00+02:00" CHECKSUM="97225a8317502d52e0a8912c9461f11e"
+            CHECKSUMTYPE="MD5" />
+    </dmdSec>
+
+    <!-- ref to the PREMIS metadata about IE/subIE(s)/package -->
+    <amdSec>
+        <digiprovMD ID="uuid-6738f93b-1beb-4ce6-a1a8-3b99fc5e4c52">
+            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple"
+                xlink:href="metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="29807"
+                CREATED="2023-11-16T00:00:00+02:00" CHECKSUM="4873eb32d62ffaeb73dcf09b0b9d9c42"
+                CHECKSUMTYPE="MD5" />
+        </digiprovMD>
+    </amdSec>
+
+    <!-- file section -->
+    <fileSec ID="uuid-8c42eb5b-1a09-4297-b7f3-974f261ea994">
+
+        <fileGrp USE="Representations/uuid-5d7d4281-6a06-4b0e-ab88-cd430cb751ce"
+            ID="uuid-f957888b-b1e5-4444-b742-2cbf8529a4d3">
+            <file ID="uuid-9b0ad206-5f36-4683-918f-f06d707c757e" MIMETYPE="text/xml" SIZE="3150"
+                CREATED="2023-11-10T12:01:00+02:00" CHECKSUM="2ce4f95b8b68ab28b5d565e9352e3810"
+                CHECKSUMTYPE="MD5">
+                <FLocat LOCTYPE="URL" xlink:type="simple"
+                    xlink:href="representations/uuid-5d7d4281-6a06-4b0e-ab88-cd430cb751ce/METS.xml" />
+            </file>
+        </fileGrp>
+        <fileGrp USE="Representations/uuid-e3000091-b0c2-459b-9863-e5d2da8270c8"
+            ID="uuid-ec63ed1f-7f50-49ac-8357-7ba6caf35844">
+            <file ID="uuid-fbbfe315-28d9-484d-8173-9939d5234bf2" MIMETYPE="text/xml" SIZE="3155"
+                CREATED="2023-11-10T12:01:00+02:00" CHECKSUM="31ef474f38176eeb8eaf44a6906b3473"
+                CHECKSUMTYPE="MD5">
+                <FLocat LOCTYPE="URL" xlink:type="simple"
+                    xlink:href="representations/uuid-e3000091-b0c2-459b-9863-e5d2da8270c8/METS.xml" />
+            </file>
+        </fileGrp>
+        <fileGrp USE="Representations/uuid-e2765c34-68dd-4f36-a230-5483c4bed076"
+            ID="uuid-481c7d00-1175-43fa-ad0b-41a3ef262442">
+            <file ID="uuid-40c048b8-fcbc-48e5-a2e2-d60c3979949b" MIMETYPE="text/xml" SIZE="3151"
+                CREATED="2023-11-10T12:01:00+02:00" CHECKSUM="cf40c9f7b589825f01759fcd722595a7"
+                CHECKSUMTYPE="MD5">
+                <FLocat LOCTYPE="URL" xlink:type="simple"
+                    xlink:href="representations/uuid-e2765c34-68dd-4f36-a230-5483c4bed076/METS.xml" />
+            </file>
+        </fileGrp>
+        <fileGrp USE="Representations/uuid-46b16a3e-3dbe-472d-9e9e-47c99457389d"
+            ID="uuid-d7e5f610-1324-4f3d-8761-2177ae3abdba">
+            <file ID="uuid-b1221277-6148-4841-baab-566f35a7d7eb" MIMETYPE="text/xml" SIZE="3145"
+                CREATED="2023-11-10T12:01:00+02:00" CHECKSUM="0314454ac45ac803ecaa2ba53b24b15c"
+                CHECKSUMTYPE="MD5">
+                <FLocat LOCTYPE="URL" xlink:type="simple"
+                    xlink:href="representations/uuid-46b16a3e-3dbe-472d-9e9e-47c99457389d/METS.xml" />
+            </file>
+        </fileGrp>
+
+    </fileSec>
+
+    <structMap ID="uuid-0458e329-659c-488a-9866-1fe1c9bf6b01" TYPE="PHYSICAL" LABEL="CSIP">
+        <div ID="uuid-e2639982-dd4e-43a9-aa95-8fb851a801da">
+            <div ID="uuid-61774bb6-1b17-40cd-b823-46230bd6c9f2" LABEL="Metadata"
+                ADMID="uuid-6738f93b-1beb-4ce6-a1a8-3b99fc5e4c52"
+                DMDID="uuid-afaf863f-b9b5-48b4-88aa-1c2754bbafee" />
+            <div ID="uuid-46f5c225-cdf9-4480-9b36-c2226b921d02"
+                LABEL="Representations/uuid-5d7d4281-6a06-4b0e-ab88-cd430cb751ce">
+                <mptr xlink:type="simple"
+                    xlink:href="representations/uuid-5d7d4281-6a06-4b0e-ab88-cd430cb751ce/METS.xml"
+                    LOCTYPE="URL" xlink:title="uuid-5d7d4281-6a06-4b0e-ab88-cd430cb751ce" />
+            </div>
+            <div ID="uuid-90b2b9c9-3a1c-48c6-8846-9ceb6f867b5f"
+                LABEL="Representations/uuid-e3000091-b0c2-459b-9863-e5d2da8270c8">
+                <mptr xlink:type="simple"
+                    xlink:href="representations/uuid-e3000091-b0c2-459b-9863-e5d2da8270c8/METS.xml"
+                    LOCTYPE="URL" xlink:title="uuid-e3000091-b0c2-459b-9863-e5d2da8270c8" />
+            </div>
+            <div ID="uuid-3da9f019-03fa-431e-b818-751bf4afd519"
+                LABEL="Representations/uuid-e2765c34-68dd-4f36-a230-5483c4bed076">
+                <mptr xlink:type="simple"
+                    xlink:href="representations/uuid-e2765c34-68dd-4f36-a230-5483c4bed076/METS.xml"
+                    LOCTYPE="URL" xlink:title="uuid-e2765c34-68dd-4f36-a230-5483c4bed076/METS.xml" />
+            </div>
+            <div ID="uuid-8c62fb7c-4147-4c4f-a956-dcb060b4561e"
+                LABEL="Representations/uuid-46b16a3e-3dbe-472d-9e9e-47c99457389d">
+                <mptr xlink:type="simple"
+                    xlink:href="representations/uuid-46b16a3e-3dbe-472d-9e9e-47c99457389d/METS.xml"
+                    LOCTYPE="URL" xlink:title="uuid-46b16a3e-3dbe-472d-9e9e-47c99457389d/METS.xml" />
+            </div>
+        </div>
+    </structMap>
+</mets>
