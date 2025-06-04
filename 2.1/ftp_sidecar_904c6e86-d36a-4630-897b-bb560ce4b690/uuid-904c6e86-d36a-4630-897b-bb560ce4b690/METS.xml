@@ -32,7 +32,7 @@
     <fileSec ID="uuid-8121ea13-cdf2-47e5-9671-7046609b1ddc">
         <fileGrp USE="Representations/representation_1" ID="uuid-f98a1920-e98d-4e3a-a80e-80525fc57bf8">
             <file ID="uuid-489d422b-4195-4545-9920-b1cd6fecbd02" MIMETYPE="text/xml" SIZE="2326" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="158928e181644f3aa76597c1cfa59f14" CHECKSUMTYPE="MD5">
-                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/mets.xml"/>
+                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml"/>
             </file>
         </fileGrp>
     </fileSec>
@@ -41,7 +41,7 @@
         <div ID="uuid-567e153a-e41c-4477-9db0-04e7011e6ef4" LABEL="ftp_sidecar_example">
             <div ID="uuid-45ca08e1-c62b-4e2e-b53b-89c888d68fb0" LABEL="Metadata" ADMID="uuid-056d1289-c015-4815-b91c-78dcbdbdf9aa" DMDID="uuid-25c076a4-39e5-429b-a495-1c0a7dff5b04"/>
             <div ID="uuid-5f54d77c-5927-4e45-90ae-7cf378a82807" LABEL="Representations/representation_1">
-                <mptr xlink:type="simple" xlink:href="./representations/representation_1/mets.xml" LOCTYPE="URL" xlink:title="uuid-f98a1920-e98d-4e3a-a80e-80525fc57bf8"/>
+                <mptr xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" LOCTYPE="URL" xlink:title="uuid-f98a1920-e98d-4e3a-a80e-80525fc57bf8"/>
             </div>
         </div>
     </structMap>
