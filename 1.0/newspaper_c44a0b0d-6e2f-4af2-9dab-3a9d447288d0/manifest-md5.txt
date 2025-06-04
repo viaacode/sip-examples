@@ -1,0 +1,14 @@
+edcea2c2dd0dd7502d7afaf8639b8452  data/mets.xml
+eedd566fef2dee230e94bd2e670f30ac  data/metadata/descriptive/dc.xml
+660e41a4047114452ea09774ee6dfca2  data/metadata/descriptive/mods.xml
+a2a0ed05c21819fdd3b3da8f87868f8c  data/metadata/preservation/premis.xml
+e319aa72eb14e374d89e8f9059996e1d  data/representations/representation_1/mets.xml
+d41d8cd98f00b204e9800998ecf8427e  data/representations/representation_1/data/18950101_0001.tiff
+d41d8cd98f00b204e9800998ecf8427e  data/representations/representation_1/data/18950101_0002.tiff
+d41d8cd98f00b204e9800998ecf8427e  data/representations/representation_1/data/18950101_0003.tiff
+6faeec4cd127bea4343b3dc5a0a412e2  data/representations/representation_1/metadata/preservation/premis.xml
+b40d8e0df9026a585837c706933ce4a7  data/representations/representation_2/mets.xml
+d41d8cd98f00b204e9800998ecf8427e  data/representations/representation_2/data/18950101_0001.xml
+d41d8cd98f00b204e9800998ecf8427e  data/representations/representation_2/data/18950101_0002.xml
+d41d8cd98f00b204e9800998ecf8427e  data/representations/representation_2/data/18950101_0003.xml
+d77db2f3525658dedb017ff3593d7b5e  data/representations/representation_2/metadata/preservation/premis.xml

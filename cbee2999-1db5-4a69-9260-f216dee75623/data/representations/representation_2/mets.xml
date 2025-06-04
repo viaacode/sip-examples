@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<mets xmlns="http://www.loc.gov/METS/" xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS"
+    xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
+    OBJID="representation_2" TYPE="Photographs – Digital"
+    PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP.xml" xsi:schemaLocation="https://www.w3.org./1999/xlink http://www.loc.gov/standards/xlink/xlink.xsd  http://www.loc.gov/METS/ https://www.loc.gov/standards/mets/mets.xsd https://DILCIS.eu/XML/METS/CSIPExtensionMETS https://earkcsip.dilcis.eu/schema/DILCISExtensionMETS.xsd https://DILCIS.eu/XML/METS/SIPExtensionMETS https://earksip.dilcis.eu/schema/DILCISExtensionSIPMETS.xsd">
+
+    <metsHdr CREATEDATE="2022-02-16T10:02:37.009+02:00" />
+
+    <dmdSec ID="uuid-7f14be59-199c-4a9a-9530-78e0ff66a7d6">
+        <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple"
+            xlink:href="./metadata/descriptive/dc_1.xml" MIMETYPE="text/xml" SIZE="800"
+            CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="31d402b829f673afe24f698dc462bbde"
+            CHECKSUMTYPE="MD5" />
+    </dmdSec>
+
+    <amdSec>
+        <digiprovMD ID="uuid-9976a799-e974-4fc5-94d0-fe0e98bff923">
+            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple"
+                xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="4776"
+                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="fde6c913b4105cc06174fba8cd3b864e"
+                CHECKSUMTYPE="MD5" />
+        </digiprovMD>
+    </amdSec>
+
+    <fileSec ID="uuid-9ffe5a07-e8f6-4df4-b59f-788e0583f3f2">
+        <fileGrp USE="data" ID="uuid-cd18512d-7712-447d-8412-ef16cbe1c065">
+            <file ID="uuid-21d5c528-ae10-4945-9659-73f024f65a20" MIMETYPE="image/jpeg"
+                SIZE="1735648" CREATED="2022-02-16T10:02:37.009+02:00"
+                CHECKSUM="18513a8d61c6f2cbaaeeedd754b01d6b" CHECKSUMTYPE="MD5">
+                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/D523F963.jpg" />
+            </file>
+        </fileGrp>
+    </fileSec>
+
+    <structMap ID="uuid-3e52eefa-2e6a-4fd5-8b75-4b6b1b37df3a" TYPE="PHYSICAL" LABEL="CSIP">
+        <div ID="uuid-25239628-2913-4a7c-b37d-09cf9a99f799" LABEL="representation_2">
+            <div ID="uuid-c0b3a54c-b42e-4ecb-9d44-dc8b998d43c2" LABEL="Metadata"
+                ADMID="uuid-9976a799-e974-4fc5-94d0-fe0e98bff923"
+                DMDID="uuid-7f14be59-199c-4a9a-9530-78e0ff66a7d6" />
+            <div ID="uuid-50a4b952-ac38-4441-b769-0f2f8d1edb9f" LABEL="Representations">
+                <fptr FILEID="uuid-cd18512d-7712-447d-8412-ef16cbe1c065" />
+            </div>
+        </div>
+    </structMap>
+</mets> 

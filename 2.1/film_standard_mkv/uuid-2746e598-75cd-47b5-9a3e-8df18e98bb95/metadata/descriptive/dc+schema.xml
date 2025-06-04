@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns="https://data.hetarchief.be/id/sip/2.1/film"
+  xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xs="http://www.w3.org/2001/XMLSchema/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:edtf="http://id.loc.gov/datatypes/edtf/" xmlns:schema="https://schema.org/">
+
+  <!-- general title for the resource -->
+  <dcterms:title xml:lang="nl">Katten in de tuin</dcterms:title>
+
+  <!-- alternative title for the resource -->
+  <dcterms:alternative xml:lang="nl">Ons katten in den hof</dcterms:alternative>
+
+  <!-- general description for the resource -->
+  <dcterms:description xml:lang="nl">Katten ravotten in de tuin</dcterms:description>
+
+  <!-- linking id between dc and premis -->
+  <dcterms:identifier>uuid-f9ef158c-f03c-4840-836e-8ffb8e8ebe04</dcterms:identifier>
+
+  <!-- creationdate -->
+  <dcterms:created xsi:type="edtf:EDTF-level1">XXXX-XX-XX</dcterms:created>
+
+  <!-- genre of the resource -->
+  <schema:genre>amateur recording</schema:genre>
+
+  <!-- Country where the resource originated -->
+  <schema:countryOfOrigin>BE</schema:countryOfOrigin>
+
+  <!-- archiefvormer role -->
+  <schema:creator schema:roleName="archiefvormer">
+    <schema:name>Dummy privéarchief</schema:name>
+  </schema:creator>
+
+  <!-- rightsholder -->
+  <dcterms:rightsHolder>© dummyorganisatie</dcterms:rightsHolder>
+
+  <!-- IE type -->
+  <dcterms:format>film</dcterms:format>
+
+  <!-- VIAA licenses for the resource -->
+  <dcterms:license>VIAA-ONDERWIJS</dcterms:license>
+  <dcterms:license>VIAA-ONDERZOEK</dcterms:license>
+  <dcterms:license>VIAA-INTRA-CP-CONTENT</dcterms:license>
+  <dcterms:license>VIAA-INTRA_CP-METADATA-ALL</dcterms:license>
+  <dcterms:license>VIAA-PUBLIEK-METADATA-LTD</dcterms:license>
+  <dcterms:license>BEZOEKERTOOL-CONTENT</dcterms:license>
+  <dcterms:license>BEZOEKERTOOL-METADATA-ALL</dcterms:license>
+
+</metadata>

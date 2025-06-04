@@ -1,0 +1,7 @@
+29453910bce5f3618e0df9e7fd3956cf  data/mets.xml
+904464d54da19ec7e324f8e47d88f1a9  data/metadata/descriptive/dc_1.xml
+70013493d23a7c3d32b9fadd48729372  data/metadata/preservation/premis.xml
+688a64e2657dcb0539adfa074a92f99e  data/representations/representation_1/mets.xml
+22502b5dc38e893d99e9368c6ff70229  data/representations/representation_1/data/broadcaster_news_20220525.mp4
+daefffb93e6c3be7136ba40edae4f2f1  data/representations/representation_1/data/broadcaster_news_20220525.srt
+8a37cc709da88221cb71117a6c66265f  data/representations/representation_1/metadata/preservation/premis.xml
