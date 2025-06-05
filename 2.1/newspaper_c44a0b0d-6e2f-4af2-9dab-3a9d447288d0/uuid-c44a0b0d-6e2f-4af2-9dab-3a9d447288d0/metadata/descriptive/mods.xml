@@ -14,6 +14,7 @@
   <mods:originInfo>
     <mods:issuance>serial</mods:issuance>
     <mods:dateIssued encoding="edtf">2022-08-02</mods:dateIssued>
+    <mods:dateCreated encoding="edtf">XXXX</mods:dateCreated>
     <mods:place>
       <mods:placeTerm type="text">Ghent, Belgium</mods:placeTerm>
       <mods:placeTerm type="code" authority="iso3166" authorityURI="https://www.iso.org/iso-3166-country-codes.html">BEL</mods:placeTerm>
