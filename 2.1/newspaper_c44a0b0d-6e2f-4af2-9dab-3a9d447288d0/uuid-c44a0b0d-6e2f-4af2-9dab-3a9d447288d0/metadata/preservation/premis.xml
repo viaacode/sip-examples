@@ -42,6 +42,11 @@
     <premis:eventDetailInformation>
       <premis:eventDetail>Generate ALTO XML from TIFF via OCR</premis:eventDetail>
     </premis:eventDetailInformation>
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-2dbee80f-4e88-434e-837f-1a7bbb18550f</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>implementer</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
     <premis:linkingObjectIdentifier>
       <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
       <premis:linkingObjectIdentifierValue>uuid-d8fd6dde-53a5-4614-823c-32f64588efe6</premis:linkingObjectIdentifierValue>
@@ -53,6 +58,15 @@
       <premis:linkingObjectRole>outcome</premis:linkingObjectRole>
     </premis:linkingObjectIdentifier>
   </premis:event>
+
+  <premis:agent>
+    <premis:agentIdentifier>
+      <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+      <premis:agentIdentifierValue>uuid-2dbee80f-4e88-434e-837f-1a7bbb18550f</premis:agentIdentifierValue>
+    </premis:agentIdentifier>
+    <premis:agentName>Some organization</premis:agentName>
+    <premis:agentType>organization</premis:agentType>
+  </premis:agent>
 
 </premis:premis>
  
