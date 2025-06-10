@@ -1,11 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<metadata xmlns="https://data.hetarchief.be/id/sip/1.0/basic" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xs="http://www.w3.org/2001/XMLSchema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edtf="http://id.loc.gov/datatypes/edtf/">
+<metadata xmlns="https://data.hetarchief.be/id/sip/2.1/basic" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xs="http://www.w3.org/2001/XMLSchema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edtf="http://id.loc.gov/datatypes/edtf/">
 
   <!-- linking id between dc and premis -->
   <dcterms:identifier>uuid-a0a5329c-4ad1-4607-9f6e-ce980d90b992</dcterms:identifier>
 
   <!-- general title for the resource -->
   <dcterms:title xml:lang="nl">Felis Catus Flamens sitting on a cat tree</dcterms:title>
+  <dcterms:description xml:lang="nl">Description</dcterms:description>
+
+  <dcterms:format>video</dcterms:format>
 
   <!-- date unknown -->
   <dcterms:created xsi:type="edtf:EDTF-level1">XXXX</dcterms:created>
