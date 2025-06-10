@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <premis:premis version="3.0" xmlns:premis="http://www.loc.gov/premis/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-  <premis:object>
-    <premis:objectCategory>representation</premis:objectCategory>
+  <premis:object xsi:type="premis:representation">
 
     <premis:objectIdentifier>
       <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
@@ -29,10 +28,7 @@
 
   </premis:object>
 
-  <premis:object>
-    <premis:originalName>1445.jpeg</premis:originalName>
-
-    <premis:objectCategory>file</premis:objectCategory>
+  <premis:object xsi:type="premis:file">
 
     <premis:objectIdentifier>
       <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
@@ -44,7 +40,18 @@
         <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
         <premis:messageDigest>b7ae37f6094794e313402b9d064978e8</premis:messageDigest>
       </premis:fixity>
+      <premis:size>
+        721603
+      </premis:size>
+      <premis:format>
+        <premis:formatRegistry>
+          <premis:formatRegistryName>PRONOM</premis:formatRegistryName>
+          <premis:formatRegistryKey>fmt/44</premis:formatRegistryKey>
+        </premis:formatRegistry>
+      </premis:format>
     </premis:objectCharacteristics>
+
+    <premis:originalName>1445.jpeg</premis:originalName>
 
     <premis:relationship>
       <premis:relationshipType authority="relationshipType" authorityURI="http://id.loc.gov/vocabulary/preservation/relationshipType" valueURI="http://id.loc.gov/vocabulary/preservation/relationshipType/str">structural</premis:relationshipType>
