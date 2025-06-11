@@ -31,7 +31,7 @@
         <div ID="uuid-79d61ee7-dafb-4011-a9f2-c0d7d6b766b5" LABEL="representation_2">
             <div ID="uuid-132f7d2f-0708-4962-a960-511f480045ce" LABEL="Metadata" ADMID="uuid-281dbc55-8250-4e54-a490-6cdf30880589" />
             <!-- added divs with order attributes for page order -->
-            <div ID="uuid-12aff14b-07b4-4ca5-b053-572f6d187e58" LABEL="Representations">
+            <div ID="uuid-12aff14b-07b4-4ca5-b053-572f6d187e58" LABEL="data">
                 <div ID="uuid-8617a575-a76d-4d21-9fb9-7a3a0532d3f1" TYPE="page" ORDER="1">
                     <fptr FILEID="uuid-fd5fec40-a696-40d4-be7b-e0a01a2bf0e3" />
                 </div>

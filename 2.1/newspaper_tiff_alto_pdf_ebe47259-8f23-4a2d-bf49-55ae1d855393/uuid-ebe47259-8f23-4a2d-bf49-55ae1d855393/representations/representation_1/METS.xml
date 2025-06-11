@@ -41,20 +41,21 @@
 
     <!-- structural map for the structure of the SIP itself -->
     <structMap ID="uuid-04647bb4-f524-435b-b4bf-5fe7a926b9d4" TYPE="PHYSICAL" LABEL="CSIP">
-        <div ID="uuid-74e4335c-1d24-42bc-bbd0-864bd216d99c" LABEL="representation_1">
+        <div>
             <div ID="uuid-60d4a0db-769c-42a9-8ef8-c395bb555803" LABEL="Metadata"
                 ADMID="uuid-572c2067-c1de-4206-b33c-7eae7301a36d" />
-        </div>
-        <!-- added divs with order attributes for page order -->
-        <div ID="uuid-41bacec1-1d6c-467a-8020-7114115562a8" LABEL="Representations">
-            <div ID="uuid-47e52361-8508-4ae1-ad8c-0e1f5382065e" TYPE="page" ORDER="1">
-                <fptr FILEID="uuid-9850cb03-b1fd-4661-a4fb-e3dfcf25e9e5" />
-            </div>
-            <div ID="uuid-47e52361-8508-4ae1-ad8c-0e1f5382065e" TYPE="page" ORDER="2">
-                <fptr FILEID="uuid-3309e853-bf0f-4d19-ae6a-5e14911e3662" />
-            </div>
-            <div ID="uuid-eebd6f2a-f06e-4c5f-9c52-fd58e784eaff" TYPE="page" ORDER="3">
-                <fptr FILEID="uuid-4ef96979-4abf-4af0-8156-d04fdd2ff7c3" />
+
+            <!-- added divs with order attributes for page order -->
+            <div ID="uuid-41bacec1-1d6c-467a-8020-7114115562a8" LABEL="data">
+                <div ID="uuid-47e52361-8508-4ae1-ad8c-0e1f5382065e" TYPE="page" ORDER="1">
+                    <fptr FILEID="uuid-9850cb03-b1fd-4661-a4fb-e3dfcf25e9e5" />
+                </div>
+                <div ID="uuid-09a0f26d-596b-4f78-ad23-3d3a594afaa6" TYPE="page" ORDER="2">
+                    <fptr FILEID="uuid-3309e853-bf0f-4d19-ae6a-5e14911e3662" />
+                </div>
+                <div ID="uuid-eebd6f2a-f06e-4c5f-9c52-fd58e784eaff" TYPE="page" ORDER="3">
+                    <fptr FILEID="uuid-4ef96979-4abf-4af0-8156-d04fdd2ff7c3" />
+                </div>
             </div>
         </div>
     </structMap>

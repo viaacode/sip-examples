@@ -22,7 +22,7 @@
     <structMap ID="uuid-01f86982-4708-45a4-950f-65708b7a5937" TYPE="PHYSICAL" LABEL="CSIP">
         <div ID="uuid-dbcdff8f-7422-4ddb-b366-56e984622f7d" LABEL="representation_3">
             <div ID="uuid-d3238f49-28c8-49c6-a30e-7635ec97696b" LABEL="Metadata" ADMID="uuid-0fe3be01-ec81-4623-a376-f6b836575a82" />
-            <div ID="uuid-cae7f276-2867-4bfb-8048-f799a38dcc22" LABEL="Representations">
+            <div ID="uuid-cae7f276-2867-4bfb-8048-f799a38dcc22" LABEL="data">
                 <fptr FILEID="uuid-3e0e5e49-5e8a-4ecd-af5f-4f998cec460b" />
             </div>
         </div>
