@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mets xmlns="http://www.loc.gov/METS/" xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS" xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" OBJID="uuid-904c6e86-d36a-4630-897b-bb560ce4b690" TYPE="OTHER" csip:OTHERTYPE="Legacy born digital FTP" PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP.xml" csip:CONTENTINFORMATIONTYPE="OTHER" csip:OTHERCONTENTINFORMATIONTYPE="https://data.hetarchief.be/id/sip/2.1/basic" xsi:schemaLocation="https://www.w3.org./1999/xlink http://www.loc.gov/standards/xlink/xlink.xsd  http://www.loc.gov/METS/ https://www.loc.gov/standards/mets/mets.xsd https://DILCIS.eu/XML/METS/CSIPExtensionMETS https://earkcsip.dilcis.eu/schema/DILCISExtensionMETS.xsd https://DILCIS.eu/XML/METS/SIPExtensionMETS https://earksip.dilcis.eu/schema/DILCISExtensionSIPMETS.xsd">
+
+    <metsHdr CREATEDATE="2022-04-08T09:29:15.014+02:00" csip:OAISPACKAGETYPE="SIP">
+        <!-- information about the software -->
+        <agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="SOFTWARE">
+            <name>meemoo SIP creator</name>
+            <note csip:NOTETYPE="SOFTWARE VERSION">0.1.</note>
+        </agent>
+        <!-- information about the archival creator-->
+        <agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
+            <name>meemoo</name>
+            <note csip:NOTETYPE="IDENTIFICATIONCODE">OR-w66976m</note>
+        </agent>
+        <!-- information about the submitting organisation -->
+        <agent ROLE="CREATOR" TYPE="ORGANIZATION">
+            <name>VIAA.CP</name>
+            <note csip:NOTETYPE="IDENTIFICATIONCODE">VIAA.CP_id</note>
+        </agent>
+    </metsHdr>
+
+    <dmdSec ID="uuid-25c076a4-39e5-429b-a495-1c0a7dff5b04">
+        <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple" xlink:href="./metadata/descriptive/dc_1.xml" MIMETYPE="text/xml" SIZE="9505" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="8f7835a06bec15b4038cc6089ef1e655" CHECKSUMTYPE="MD5"/>
+    </dmdSec>
+
+    <amdSec>
+        <digiprovMD ID="uuid-056d1289-c015-4815-b91c-78dcbdbdf9aa">
+            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="5695" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="3b6c95b04a5fb9a4baf7bbf68a10a04f" CHECKSUMTYPE="MD5"/>
+        </digiprovMD>
+    </amdSec>
+
+    <fileSec ID="uuid-8121ea13-cdf2-47e5-9671-7046609b1ddc">
+        <fileGrp USE="Representations/representation_1" ID="uuid-f98a1920-e98d-4e3a-a80e-80525fc57bf8">
+            <file ID="uuid-489d422b-4195-4545-9920-b1cd6fecbd02" MIMETYPE="text/xml" SIZE="2326" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="158928e181644f3aa76597c1cfa59f14" CHECKSUMTYPE="MD5">
+                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml"/>
+            </file>
+        </fileGrp>
+    </fileSec>
+
+    <structMap ID="uuid-f4802b22-f5c6-4fea-adef-cf1f5669ca0f" TYPE="PHYSICAL" LABEL="CSIP">
+        <div ID="uuid-567e153a-e41c-4477-9db0-04e7011e6ef4" LABEL="ftp_sidecar_example">
+            <div ID="uuid-45ca08e1-c62b-4e2e-b53b-89c888d68fb0" LABEL="Metadata" ADMID="uuid-056d1289-c015-4815-b91c-78dcbdbdf9aa" DMDID="uuid-25c076a4-39e5-429b-a495-1c0a7dff5b04"/>
+            <div ID="uuid-5f54d77c-5927-4e45-90ae-7cf378a82807" LABEL="Representations/representation_1">
+                <mptr xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" LOCTYPE="URL" xlink:title="uuid-f98a1920-e98d-4e3a-a80e-80525fc57bf8"/>
+            </div>
+        </div>
+    </structMap>
+</mets>
