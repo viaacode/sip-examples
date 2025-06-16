@@ -2,10 +2,10 @@
 <mods:mods xmlns:mods="http://www.loc.gov/mods/v3" version="3.7" xmlns:xs="http://www.w3.org/2001/XMLSchema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
 
   <mods:titleInfo>
-    <mods:title>Le Chat Blanc</mods:title>
+    <mods:title xml:lang="nl">Le Chat Blanc</mods:title>
   </mods:titleInfo>
   <mods:titleInfo type="alternative">
-    <mods:title>Journal Indépendant: Le Chat Blanc</mods:title>
+    <mods:title xml:lang="nl">Journal Indépendant: Le Chat Blanc</mods:title>
   </mods:titleInfo>
   <mods:identifier>uuid-e6a138e5-a0fc-41d3-a912-9491a3502f57</mods:identifier>
   <mods:typeOfResource>newspaper edition</mods:typeOfResource>
@@ -16,7 +16,8 @@
     <mods:dateIssued encoding="edtf">XXXX</mods:dateIssued>
     <mods:dateCreated encoding="edtf">2022-07-02</mods:dateCreated>
     <mods:place>
-      <mods:placeTerm type="text">Ghent, Belgium</mods:placeTerm>
+      <mods:placeTerm type="text" xml:lang="nl">Gent, België</mods:placeTerm>
+      <mods:placeTerm type="text" xml:lang="en">Ghent, Belgium</mods:placeTerm>
       <mods:placeTerm type="code" authority="iso3166" authorityURI="https://www.iso.org/iso-3166-country-codes.html">BEL</mods:placeTerm>
     </mods:place>
   </mods:originInfo>
