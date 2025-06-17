@@ -49,7 +49,6 @@
 
     <!-- file section -->
     <fileSec ID="uuid-8c42eb5b-1a09-4297-b7f3-974f261ea994">
-
         <fileGrp USE="Representations/uuid-5d7d4281-6a06-4b0e-ab88-cd430cb751ce"
             ID="uuid-f957888b-b1e5-4444-b742-2cbf8529a4d3">
             <file ID="uuid-9b0ad206-5f36-4683-918f-f06d707c757e" MIMETYPE="text/xml" SIZE="3150"
@@ -98,25 +97,25 @@
                 LABEL="Representations/uuid-5d7d4281-6a06-4b0e-ab88-cd430cb751ce">
                 <mptr xlink:type="simple"
                     xlink:href="representations/uuid-5d7d4281-6a06-4b0e-ab88-cd430cb751ce/METS.xml"
-                    LOCTYPE="URL" xlink:title="uuid-5d7d4281-6a06-4b0e-ab88-cd430cb751ce" />
+                    LOCTYPE="URL" xlink:title="uuid-f957888b-b1e5-4444-b742-2cbf8529a4d3" />
             </div>
             <div ID="uuid-90b2b9c9-3a1c-48c6-8846-9ceb6f867b5f"
                 LABEL="Representations/uuid-e3000091-b0c2-459b-9863-e5d2da8270c8">
                 <mptr xlink:type="simple"
                     xlink:href="representations/uuid-e3000091-b0c2-459b-9863-e5d2da8270c8/METS.xml"
-                    LOCTYPE="URL" xlink:title="uuid-e3000091-b0c2-459b-9863-e5d2da8270c8" />
+                    LOCTYPE="URL" xlink:title="uuid-ec63ed1f-7f50-49ac-8357-7ba6caf35844" />
             </div>
             <div ID="uuid-3da9f019-03fa-431e-b818-751bf4afd519"
                 LABEL="Representations/uuid-e2765c34-68dd-4f36-a230-5483c4bed076">
                 <mptr xlink:type="simple"
                     xlink:href="representations/uuid-e2765c34-68dd-4f36-a230-5483c4bed076/METS.xml"
-                    LOCTYPE="URL" xlink:title="uuid-e2765c34-68dd-4f36-a230-5483c4bed076/METS.xml" />
+                    LOCTYPE="URL" xlink:title="uuid-481c7d00-1175-43fa-ad0b-41a3ef262442" />
             </div>
             <div ID="uuid-8c62fb7c-4147-4c4f-a956-dcb060b4561e"
                 LABEL="Representations/uuid-46b16a3e-3dbe-472d-9e9e-47c99457389d">
                 <mptr xlink:type="simple"
                     xlink:href="representations/uuid-46b16a3e-3dbe-472d-9e9e-47c99457389d/METS.xml"
-                    LOCTYPE="URL" xlink:title="uuid-46b16a3e-3dbe-472d-9e9e-47c99457389d/METS.xml" />
+                    LOCTYPE="URL" xlink:title="uuid-d7e5f610-1324-4f3d-8761-2177ae3abdba" />
             </div>
         </div>
     </structMap>
