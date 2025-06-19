@@ -107,67 +107,33 @@
       <premis:objectIdentifierType>Batch-ID</premis:objectIdentifierType>
       <premis:objectIdentifierValue>FLMB20</premis:objectIdentifierValue>
     </premis:objectIdentifier>
-    <premis:objectIdentifier>
-      <premis:objectIdentifierType>Barcode-image-reels</premis:objectIdentifierType>
-      <premis:objectIdentifierValue>AFLM_FEL_001392</premis:objectIdentifierValue>
-    </premis:objectIdentifier>
 
     <premis:significantProperties>
-      <premis:significantPropertiesType>Projection-speed</premis:significantPropertiesType>
-      <premis:significantPropertiesValue>18 f/s</premis:significantPropertiesValue>
-    </premis:significantProperties>
-    <premis:significantProperties>
-      <premis:significantPropertiesType>CP-evaluation</premis:significantPropertiesType>
-      <premis:significantPropertiesValue>4 interesting, HR digitisation</premis:significantPropertiesValue>
-    </premis:significantProperties>
-    <premis:significantProperties>
-      <premis:significantPropertiesType>Image-or-sound</premis:significantPropertiesType>
-      <premis:significantPropertiesValue>image</premis:significantPropertiesValue>
-    </premis:significantProperties>
-    <premis:significantProperties>
-      <premis:significantPropertiesType>Aspect-ratio</premis:significantPropertiesType>
-      <premis:significantPropertiesValue>1:37</premis:significantPropertiesValue>
-    </premis:significantProperties>
-    <premis:significantProperties>
-      <premis:significantPropertiesType>Number-of-reels</premis:significantPropertiesType>
-      <premis:significantPropertiesValue>1</premis:significantPropertiesValue>
-    </premis:significantProperties>
-    <premis:significantProperties>
-      <premis:significantPropertiesType>Preservation-problems</premis:significantPropertiesType>
-      <premis:significantPropertiesValue>Base Scratching remarks: Light scratches, lines and
-        stripes. Some cables.\nvinegar date: 2021-06-30 pH value:PH 4.8</premis:significantPropertiesValue>
-    </premis:significantProperties>
-    <premis:significantProperties>
-      <premis:significantPropertiesType>Film-base</premis:significantPropertiesType>
-      <premis:significantPropertiesValue>acetate</premis:significantPropertiesValue>
-    </premis:significantProperties>
-    <premis:significantProperties>
-      <premis:significantPropertiesType>Subtitles-present</premis:significantPropertiesType>
-      <premis:significantPropertiesValue>no</premis:significantPropertiesValue>
-    </premis:significantProperties>
-    <premis:significantProperties>
-      <premis:significantPropertiesType>Silent-or-spoken-movie</premis:significantPropertiesType>
-      <premis:significantPropertiesValue>Silent Movie</premis:significantPropertiesValue>
-    </premis:significantProperties>
-    <premis:significantProperties>
-      <premis:significantPropertiesType>Color-or-Black-and-white</premis:significantPropertiesType>
-      <premis:significantPropertiesValue>B/W and Color</premis:significantPropertiesValue>
-    </premis:significantProperties>
-    <premis:significantProperties>
-      <premis:significantPropertiesExtension xmlns:schema='https://schema.org'>
-        <schema:duration>0:04:55</schema:duration>
-        <schema:material>Original positive</schema:material>
-        <schema:size>
-          <schema:unitCode>MTR</schema:unitCode>
-          <schema:QuantitativeValue>135</schema:QuantitativeValue>
-        </schema:size>
+      <premis:significantPropertiesExtension xmlns="https://data.hetarchief.be/ns/sip/">
+
+        <numberOfReels>1</numberOfReels>
+        <inLanguage>Silent Movie</inLanguage>
+
+        <storedAt>
+          <imageReel>
+            <identifier>AFLM_FEL_001392</identifier>
+     
+            <coloringType>bandw</coloringType> 
+            <coloringType>color</coloringType> 
+
+            <material>acetate</material>
+            <preservationProblem>Base Scratching remarks: Light scratches, lines and stripes. Some cables.\nvinegar date: 2021-06-30 pH value:PH 4.8</preservationProblem>
+
+            <medium>8mmfilm</medium>
+
+            <aspectRatio>1:37</aspectRatio>
+
+            <stockType>Original positive</stockType>
+          </imageReel>
+        </storedAt>
+
       </premis:significantPropertiesExtension>
-
     </premis:significantProperties>
-
-    <premis:storage>
-      <premis:storageMedium>8mmfilm</premis:storageMedium>
-    </premis:storage>
 
     <!-- relationship between representation and its IE -->
     <premis:relationship>
