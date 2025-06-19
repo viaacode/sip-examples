@@ -20,8 +20,8 @@
             <!-- Creation date of the premis.xml file -->
             <!-- Checksum of the premis.xml file -->
             <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple"
-                xlink:href="metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="4983"
-                CREATED="2023-11-16T00:00:00+02:00" CHECKSUM="c0c73422c1f311dbfdbaa27e9e4ec2c0"
+                xlink:href="metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="4963"
+                CREATED="2023-11-16T00:00:00+02:00" CHECKSUM="c0a60e7ada82d31acc6cbc04b28e8822"
                 CHECKSUMTYPE="MD5" />
         </digiprovMD>
     </amdSec>
