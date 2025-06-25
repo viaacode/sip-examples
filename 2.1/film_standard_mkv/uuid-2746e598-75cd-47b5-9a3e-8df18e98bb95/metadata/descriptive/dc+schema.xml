@@ -27,11 +27,11 @@
 
   <!-- archiefvormer role -->
   <schema:creator schema:roleName="archiefvormer">
-    <schema:name>Dummy privéarchief</schema:name>
+    <schema:name xml:lang="nl">Dummy privéarchief</schema:name>
   </schema:creator>
 
   <!-- rightsholder -->
-  <dcterms:rightsHolder>© dummyorganisatie</dcterms:rightsHolder>
+  <dcterms:rightsHolder xml:lang="nl">© dummyorganisatie</dcterms:rightsHolder>
 
   <!-- IE type -->
   <dcterms:format>film</dcterms:format>
