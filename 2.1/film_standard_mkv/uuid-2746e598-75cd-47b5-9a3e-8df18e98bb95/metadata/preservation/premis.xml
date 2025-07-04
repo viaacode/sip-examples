@@ -171,9 +171,7 @@
 
     </premis:eventIdentifier>
     <premis:eventType valueURI="https://data.hetarchief.be/id/event-type/registration">registration</premis:eventType>
-    <premis:eventDateTime>
-      2021-04-02T09:04:04
-    </premis:eventDateTime>
+    <premis:eventDateTime>2021-04-02T09:04:04</premis:eventDateTime>
 
     <premis:eventOutcomeInformation>
       <premis:eventOutcome valueURI="http://id.loc.gov/vocabulary/preservation/eventOutcome/suc">success</premis:eventOutcome>
@@ -204,9 +202,7 @@
 
     </premis:eventIdentifier>
     <premis:eventType valueURI="https://data.hetarchief.be/id/event-type/check-out">check-out</premis:eventType>
-    <premis:eventDateTime>
-      2021-12-28T00:00:00
-    </premis:eventDateTime>
+    <premis:eventDateTime>2021-12-28T00:00:00</premis:eventDateTime>
     <premis:eventOutcomeInformation>
       <premis:eventOutcome valueURI="http://id.loc.gov/vocabulary/preservation/eventOutcome/suc">success</premis:eventOutcome>
     </premis:eventOutcomeInformation>
@@ -443,9 +439,7 @@
 
     </premis:eventIdentifier>
     <premis:eventType valueURI="https://data.hetarchief.be/id/event-type/transfer">transfer</premis:eventType>
-    <premis:eventDateTime>
-      2022-05-07T00:00:00
-    </premis:eventDateTime>
+    <premis:eventDateTime>2022-05-07T00:00:00</premis:eventDateTime>
     <premis:eventDetailInformation>
       <premis:eventDetailExtension xmlns:schema="https://schema.org">
         <schema:name>lto_id</schema:name>
