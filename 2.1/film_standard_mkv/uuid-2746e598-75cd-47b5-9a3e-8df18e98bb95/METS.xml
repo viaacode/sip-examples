@@ -32,8 +32,8 @@
     <!-- ref to descriptive metadata about IE and carrier (representation) -->
     <dmdSec ID="uuid-afaf863f-b9b5-48b4-88aa-1c2754bbafee" CREATED="2023-11-16T00:00:00+02:00">
         <mdRef LOCTYPE="URL" MDTYPE="OTHER" xlink:type="simple"
-            xlink:href="metadata/descriptive/dc+schema.xml" MIMETYPE="text/xml" SIZE="1890"
-            CREATED="2023-11-16T00:00:00+02:00" CHECKSUM="97225a8317502d52e0a8912c9461f11e"
+            xlink:href="metadata/descriptive/dc+schema.xml" MIMETYPE="text/xml" SIZE="1960"
+            CREATED="2023-11-16T00:00:00+02:00" CHECKSUM="dd9862e83d569c2de5a21ead2c654fd5"
             CHECKSUMTYPE="MD5" />
     </dmdSec>
 
