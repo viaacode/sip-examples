@@ -9,6 +9,9 @@
   <dcterms:title xml:lang="nl">Bewening van Christus</dcterms:title>
   <dcterms:title xml:lang="en">The lamentation over the Dead Christ</dcterms:title>
 
+  <dcterms:type>Image</dcterms:type>
+  <dcterms:format>image</dcterms:format>
+
   <!-- general description for the resource -->
   <dcterms:description xml:lang="nl">Rond 1629 geschilderd voor het hoogaltaar van de Begijnhofkerk
     te Antwerpen. Een tweede exemplaar wordt bewaard te Madrid (Prado); schetsen te Leningrad
@@ -31,15 +34,9 @@
   <dcterms:subject xml:lang="nl">religie</dcterms:subject>
   <dcterms:subject xml:lang="nl">Christus</dcterms:subject>
 
-  <schema:creator schema:roleName="auteur">
-    <schema:name>Anthony van Dyck</schema:name>
-    <schema:birthDate xsi:type="edtf:EDTF-level1">1599-03-22</schema:birthDate>
-    <schema:deathDate xsi:type="edtf:EDTF-level1">1641-12-09</schema:deathDate>
-  </schema:creator>
-
   <!-- creator -->
   <schema:creator schema:roleName="auteur">
-    <schema:name>Anthony van Dyck</schema:name>
+    <schema:name xml:lang="nl">Anthony van Dyck</schema:name>
     <schema:birthDate xsi:type="edtf:EDTF-level1">1599-03-22</schema:birthDate>
     <schema:deathDate xsi:type="edtf:EDTF-level1">1641-12-09</schema:deathDate>
   </schema:creator>
@@ -62,39 +59,33 @@
 
   <!-- VIAA.dc_titles.episode & VIAA.dc_titles.aflevering -->
   <schema:isPartOf xsi:type="schema:Episode">
-    <schema:name>...</schema:name>
+    <schema:name xml:lang="nl">...</schema:name>
   </schema:isPartOf>
 
   <!-- VIAA.dc_titles.alternatief -->
-  <dcterms:alternative></dcterms:alternative>
+  <dcterms:alternative xml:lang="nl"></dcterms:alternative>
 
   <!-- VIAA.dc_titles.archief -->
   <schema:isPartOf xsi:type="schema:ArchiveComponent">
-    <schema:name>...</schema:name>
-    <!-- VIAA.dc_titles.deelarchief -->
-    <schema:hasPart xsi:type="schema:ArchiveComponent">
-      <schema:name>...</schema:name>
-    </schema:hasPart>
+    <schema:name xml:lang="nl">...</schema:name>
   </schema:isPartOf>
 
   <!-- VIAA.dc_titles.programma & VIAA.dc_titles.serie -->
   <schema:isPartOf xsi:type="schema:CreativeWorkSeries">
-    <schema:name>...</schema:name>
+    <schema:name xml:lang="nl">...</schema:name>
     <!-- VIAA.dc_titles.serienummer -->
-    <schema:position>...</schema:position>
+    <schema:position>1</schema:position>
     <!-- VIAA.dc_titles.deelreeks -->
-    <schema:hasPart xsi:type="schema:CreativeWorkSeries">
-      <schema:name>...</schema:name>
+    <schema:hasPart>
+      <schema:name xml:lang="nl">...</schema:name>
     </schema:hasPart>
   </schema:isPartOf>
 
-  <!-- VIAA.dc_titles.registratie -->
-  <dcterms:title xsi:type="RegistrationTitle">...</dcterms:title>
   <!-- VIAA.dc_titles.seizoen -->
-  <schema:isPartOf xsi:type="schema:CreativeWorkSeries">
-    <schema:name>...</schema:name>
+  <schema:isPartOf xsi:type="schema:CreativeWorkSeason">
+    <schema:name xml:lang="nl">...</schema:name>
     <!-- VIAA.dc_titles.seizoennummer -->
-    <schema:position>...</schema:position>
+    <schema:position>1</schema:position>
   </schema:isPartOf>
 
 </metadata>

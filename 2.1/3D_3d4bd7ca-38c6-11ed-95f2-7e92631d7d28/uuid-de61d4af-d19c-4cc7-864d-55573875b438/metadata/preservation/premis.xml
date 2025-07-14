@@ -129,7 +129,7 @@
             <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
             <premis:eventIdentifierValue>uuid-e25b4530-4e40-11ee-bf71-7e92631d7d28</premis:eventIdentifierValue>
         </premis:eventIdentifier>
-        <premis:eventType>quality_control</premis:eventType>
+        <premis:eventType>quality-control</premis:eventType>
         <premis:eventDateTime>2022-08-31T00:00:00Z</premis:eventDateTime>
 
         <premis:eventDetailInformation>
