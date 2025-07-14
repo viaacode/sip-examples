@@ -38,9 +38,7 @@
 
     <premis:objectCharacteristics>
       <premis:fixity>
-        <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">
-                MD5
-        </premis:messageDigestAlgorithm>
+        <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
         <premis:messageDigest>63e766c9d74e7ced4f3bc742d37fb24d</premis:messageDigest>
       </premis:fixity>
       <premis:size>1067</premis:size>

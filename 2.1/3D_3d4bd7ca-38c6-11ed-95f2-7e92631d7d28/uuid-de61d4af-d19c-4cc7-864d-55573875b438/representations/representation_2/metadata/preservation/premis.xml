@@ -56,9 +56,7 @@
 
     <premis:objectCharacteristics>
       <premis:fixity>
-        <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">
-                MD5
-        </premis:messageDigestAlgorithm>
+        <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
         <premis:messageDigest>9b7dd51ee94d1cc666392f5fbb6d9ea2</premis:messageDigest>
       </premis:fixity>
       <premis:size>558891008</premis:size>
@@ -94,9 +92,7 @@
 
     <premis:objectCharacteristics>
       <premis:fixity>
-        <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">
-                MD5
-        </premis:messageDigestAlgorithm>
+        <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
         <premis:messageDigest>9b7dd51ee94d1cc666392f5fbb6d9ea2</premis:messageDigest>
       </premis:fixity>
       <premis:size>558891008</premis:size>
@@ -133,9 +129,7 @@
 
     <premis:objectCharacteristics>
       <premis:fixity>
-        <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">
-                MD5
-        </premis:messageDigestAlgorithm>
+        <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
         <premis:messageDigest>9b7dd51ee94d1cc666392f5fbb6d9ea2</premis:messageDigest>
       </premis:fixity>
       <premis:size>558891008</premis:size>
