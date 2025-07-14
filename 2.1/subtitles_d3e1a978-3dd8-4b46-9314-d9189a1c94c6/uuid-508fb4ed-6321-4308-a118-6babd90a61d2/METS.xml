@@ -21,20 +21,20 @@
 
     <!-- ref to descriptive metadata about IE -->
     <dmdSec ID="uuid-f1fdfc02-22e3-4a0c-bcf5-3901db9fbb05">
-        <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple" xlink:href="./metadata/descriptive/dc_1.xml" MIMETYPE="text/xml" SIZE="998" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="5421f612391f246855d8768e5ee07b9a" CHECKSUMTYPE="MD5"/>
+        <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple" xlink:href="./metadata/descriptive/dc_1.xml" MIMETYPE="text/xml" SIZE="998" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="904464d54da19ec7e324f8e47d88f1a9" CHECKSUMTYPE="MD5"/>
     </dmdSec>
 
     <!-- ref to the PREMIS metadata about IE/package -->
     <amdSec>
         <digiprovMD ID="uuid-e06159c9-0133-49d5-a0a8-46c6e774cfac">
-            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="1635" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="b5c029d396d9c73804498fa9223154cf" CHECKSUMTYPE="MD5"/>
+            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="1635" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="70013493d23a7c3d32b9fadd48729372" CHECKSUMTYPE="MD5"/>
         </digiprovMD>
     </amdSec>
 
     <!-- file section -->
     <fileSec ID="uuid-934e7c04-e411-459d-a552-5c88f6e4e7d4">
         <fileGrp USE="Representations/representation_1" ID="uuid-14138e4b-645b-41c4-ba17-adeac62e773c">
-            <file ID="uuid-ae19db1b-51da-41e4-8f86-592acc8b7571" MIMETYPE="text/xml" SIZE="2708" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="688a64e2657dcb0539adfa074a92f99e" CHECKSUMTYPE="MD5">
+            <file ID="uuid-ae19db1b-51da-41e4-8f86-592acc8b7571" MIMETYPE="text/xml" SIZE="2708" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="32e50c4b3fe7d59ed55e21808032abff" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml"/>
             </file>
         </fileGrp>
