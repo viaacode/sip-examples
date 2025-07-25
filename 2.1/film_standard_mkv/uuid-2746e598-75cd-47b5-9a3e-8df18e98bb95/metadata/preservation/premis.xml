@@ -103,10 +103,6 @@
       <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
       <premis:objectIdentifierValue>uuid-eb2175c9-56f9-4e7e-9192-0a11a297c1e2</premis:objectIdentifierValue>
     </premis:objectIdentifier>
-    <premis:objectIdentifier>
-      <premis:objectIdentifierType>Batch-ID</premis:objectIdentifierType>
-      <premis:objectIdentifierValue>FLMB20</premis:objectIdentifierValue>
-    </premis:objectIdentifier>
 
     <premis:significantProperties>
       <premis:significantPropertiesExtension xmlns="https://data.hetarchief.be/ns/sip/">
