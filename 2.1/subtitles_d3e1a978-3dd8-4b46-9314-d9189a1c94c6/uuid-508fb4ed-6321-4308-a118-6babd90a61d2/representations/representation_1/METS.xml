@@ -23,10 +23,10 @@
     </fileSec>
 
     <structMap ID="uuid-610ad42a-f6b0-46b5-a01f-8e7a065fcddf" TYPE="PHYSICAL" LABEL="CSIP">
-        <div ID="uuid-ef2916e7-7378-41db-bb64-6187953f6361" LABEL="">
+        <div ID="uuid-ef2916e7-7378-41db-bb64-6187953f6361">
             <div ID="uuid-4497333d-7973-4ab4-8a73-f460d70db8d8" LABEL="Metadata"
                 ADMID="uuid-983b63b3-9e62-4cfa-b07e-2f2c2410db44" />
-            <div ID="uuid-1dbcfdfd-694f-4628-9a6a-4b044a581b82" LABEL="Representations">
+            <div ID="uuid-1dbcfdfd-694f-4628-9a6a-4b044a581b82" LABEL="data">
                 <fptr FILEID="uuid-fe597cdb-3aa5-4cd1-8437-494cfed0f24d" />
             </div>
         </div>

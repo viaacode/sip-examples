@@ -18,11 +18,11 @@
     </fileSec>
 
     <structMap ID="uuid-ea36ae82-36b9-413e-a78b-61bc9eb09c1b" TYPE="PHYSICAL" LABEL="CSIP">
-        <div ID="uuid-4366bcec-576b-47bc-b894-fc60e3516717" LABEL="">
+        <div ID="uuid-4366bcec-576b-47bc-b894-fc60e3516717">
             <div ID="uuid-bbd74f78-1616-429f-9d11-9be3e3312275" LABEL="Metadata" 
             ADMID="uuid-1e1a1ecb-2f32-477e-b0d7-d5e838091ce4" 
             DMDID="uuid-0aa98148-8a94-4fc8-b9dd-52fbf677be82" />
-            <div ID="uuid-8e5c48cf-9206-42df-9229-6510b4ddf851" LABEL="Representations">
+            <div ID="uuid-8e5c48cf-9206-42df-9229-6510b4ddf851" LABEL="data">
                 <fptr FILEID="uuid-3a3a659d-e950-4d71-bbfd-ff1787c1b930" />
             </div>
         </div>
