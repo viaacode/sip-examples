@@ -19,7 +19,7 @@
         </agent>
     </metsHdr>
 
-    <dmdSec ID="uuid-25c076a4-39e5-429b-a495-1c0a7dff5b04">
+    <dmdSec ID="uuid-25c076a4-39e5-429b-a495-1c0a7dff5b04" CREATED="2022-04-08T09:29:15.014+02:00">
         <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple" xlink:href="./metadata/descriptive/dc_1.xml" MIMETYPE="text/xml" SIZE="9505" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="913c7e09c0c3ee078c89a5d6adba8e71" CHECKSUMTYPE="MD5"/>
     </dmdSec>
 

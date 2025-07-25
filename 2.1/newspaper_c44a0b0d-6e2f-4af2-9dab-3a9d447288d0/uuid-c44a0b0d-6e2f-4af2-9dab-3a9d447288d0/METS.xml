@@ -20,7 +20,7 @@
     </metsHdr>
 
     <!-- ref to descriptive metadata about IE (newspaper edition): MODS format -->
-    <dmdSec ID="uuid-a4440db5-87f9-45af-819a-b966ca7f10fa">
+    <dmdSec ID="uuid-a4440db5-87f9-45af-819a-b966ca7f10fa" CREATED="2022-02-16T10:01:15.014+02:00">
         <mdRef LOCTYPE="URL" MDTYPE="MODS" xlink:type="simple" xlink:href="./metadata/descriptive/mods.xml" MIMETYPE="text/xml" SIZE="2023" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="fa550921e1f03d56d96a52c4bd189422" CHECKSUMTYPE="MD5"/>
     </dmdSec>
 
