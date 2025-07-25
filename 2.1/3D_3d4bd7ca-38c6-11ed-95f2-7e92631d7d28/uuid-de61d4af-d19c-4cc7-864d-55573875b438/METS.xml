@@ -21,13 +21,13 @@
 
     <!-- ref to descriptive metadata about IE: DCTERMS format -->
     <dmdSec ID="uuid-3936403d-133f-4765-b3b9-0a46df28db17">
-        <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple" xlink:href="./metadata/descriptive/dc+schema.xml" MIMETYPE="text/xml" SIZE="931" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="782f39004275471de67f66b923a019f1" CHECKSUMTYPE="MD5"/>
+        <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple" xlink:href="./metadata/descriptive/dc+schema.xml" MIMETYPE="text/xml" SIZE="4305" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="a45153beef15efb8ea6bf8df8eca937e" CHECKSUMTYPE="MD5"/>
     </dmdSec>
 
     <!-- ref to the PREMIS metadata about IE/subIE(s)/package -->
     <amdSec>
         <digiprovMD ID="uuid-e2dcd7c5-5fad-4bcd-a7c7-762b0be75d0f">
-            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="1437" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="c90107659faf2f5e9671683dbdf1f654" CHECKSUMTYPE="MD5"/>
+            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="11376" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="80a16a74c4135c59d549ce935a60f324" CHECKSUMTYPE="MD5"/>
         </digiprovMD>
     </amdSec>
 
@@ -35,22 +35,22 @@
     <fileSec ID="uuid-b8e1e265-7003-42e4-8c33-3fc95122d4f4">
 
         <fileGrp USE="Representations/representation_1" ID="uuid-A0A670BA-0E14-40E6-BCE0-62FC42D8B4A6">
-            <file ID="uuid-ba89c101-109a-4fe3-a4ed-0c276b20e14c" MIMETYPE="text/xml" SIZE="2343" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="182b576423c381ff45517ae58638b970" CHECKSUMTYPE="MD5">
+            <file ID="uuid-ba89c101-109a-4fe3-a4ed-0c276b20e14c" MIMETYPE="text/xml" SIZE="2460" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="7f59df4ea54e3636d1e25fbb529b5581" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml"/>
             </file>
         </fileGrp>
         <fileGrp USE="Representations/representation_2" ID="uuid-93CB5D95-A091-4EAF-94B0-82B140510BE0">
-            <file ID="uuid-95f963f6-9939-4821-958b-4393051111dc" MIMETYPE="text/xml" SIZE="3116" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="d1824865b656044d49b3670d4d7016a9" CHECKSUMTYPE="MD5">
+            <file ID="uuid-95f963f6-9939-4821-958b-4393051111dc" MIMETYPE="text/xml" SIZE="3222" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="1f13e110b7c0e11c62622afbab053576" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_2/METS.xml"/>
             </file>
         </fileGrp>
         <fileGrp USE="Representations/representation_3" ID="uuid-8DA59BD2-2B13-4317-8C6C-BCBED669D0F6">
-            <file ID="uuid-f5614ba7-68d6-449c-8ba0-ef652f63d74d" MIMETYPE="text/xml" SIZE="3066" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="de133f0eea788278ca3d67297051ae73" CHECKSUMTYPE="MD5">
+            <file ID="uuid-f5614ba7-68d6-449c-8ba0-ef652f63d74d" MIMETYPE="text/xml" SIZE="3188" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="286cd30d6b0e0b27d485e572023ff734" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_3/METS.xml"/>
             </file>
         </fileGrp>
         <fileGrp USE="Representations/representation_4" ID="uuid-237899F0-1C25-4DAC-BFA4-BAFC156714BB">
-            <file ID="uuid-0c30e685-3e3a-4a34-9448-6e6afd182637" MIMETYPE="text/xml" SIZE="3056" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="2915b124053b1435b2753365fcaa4095" CHECKSUMTYPE="MD5">
+            <file ID="uuid-0c30e685-3e3a-4a34-9448-6e6afd182637" MIMETYPE="text/xml" SIZE="3162" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="d838cce9e5ad5f97fa463f9fc94c09aa" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_4/METS.xml"/>
             </file>
         </fileGrp>

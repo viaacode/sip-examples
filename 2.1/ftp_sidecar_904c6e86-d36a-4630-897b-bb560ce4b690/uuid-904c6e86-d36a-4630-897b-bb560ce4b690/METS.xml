@@ -20,18 +20,18 @@
     </metsHdr>
 
     <dmdSec ID="uuid-25c076a4-39e5-429b-a495-1c0a7dff5b04" CREATED="2022-04-08T09:29:15.014+02:00">
-        <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple" xlink:href="./metadata/descriptive/dc_1.xml" MIMETYPE="text/xml" SIZE="9505" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="913c7e09c0c3ee078c89a5d6adba8e71" CHECKSUMTYPE="MD5"/>
+        <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple" xlink:href="./metadata/descriptive/dc_1.xml" MIMETYPE="text/xml" SIZE="9752" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="913c7e09c0c3ee078c89a5d6adba8e71" CHECKSUMTYPE="MD5"/>
     </dmdSec>
 
     <amdSec>
         <digiprovMD ID="uuid-056d1289-c015-4815-b91c-78dcbdbdf9aa">
-            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="5695" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="3d4f281f993681bfb3c50a46c7655158" CHECKSUMTYPE="MD5"/>
+            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="5661" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="3d4f281f993681bfb3c50a46c7655158" CHECKSUMTYPE="MD5"/>
         </digiprovMD>
     </amdSec>
 
     <fileSec ID="uuid-8121ea13-cdf2-47e5-9671-7046609b1ddc">
         <fileGrp USE="Representations/representation_1" ID="uuid-f98a1920-e98d-4e3a-a80e-80525fc57bf8">
-            <file ID="uuid-489d422b-4195-4545-9920-b1cd6fecbd02" MIMETYPE="text/xml" SIZE="2326" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="b94f797b8279933c3f5592f002cdc06a" CHECKSUMTYPE="MD5">
+            <file ID="uuid-489d422b-4195-4545-9920-b1cd6fecbd02" MIMETYPE="text/xml" SIZE="2366" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="c5071cbe191187f18e5500382532536f" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml"/>
             </file>
         </fileGrp>

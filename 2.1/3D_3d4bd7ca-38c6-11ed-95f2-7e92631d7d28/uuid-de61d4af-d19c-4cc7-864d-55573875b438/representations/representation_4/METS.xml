@@ -9,25 +9,25 @@
     <amdSec>
         <digiprovMD ID="uuid-f7972ff5-599e-4f60-8b7e-8bbf4e035482">
             <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple"
-                xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="4782"
-                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="cc5466acf1e5743f9362acd8a51bc2b4"
+                xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="10630"
+                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="39e90875cf38eb0e9015bd806bdd3293"
                 CHECKSUMTYPE="MD5" />
         </digiprovMD>
     </amdSec>
 
     <fileSec ID="uuid-170f9654-bf8d-45df-8451-48d6203b9f03">
         <fileGrp USE="data" ID="uuid-d020d7d1-f258-40af-8788-04cf62a0032b">
-            <file ID="uuid-0ee31ffa-2229-11ed-8b87-7e92631d7d28" MIMETYPE="model/obj" SIZE="1735648"
+            <file ID="uuid-0ee31ffa-2229-11ed-8b87-7e92631d7d28" MIMETYPE="model/obj" SIZE="0"
                 CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e"
                 CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/qv3bz95m19_REF_OBJ.OBJ" />
             </file>
-            <file ID="uuid-1736bcfc-2229-11ed-814f-7e92631d7d28" MIMETYPE="model/mtl" SIZE="1735648"
+            <file ID="uuid-1736bcfc-2229-11ed-814f-7e92631d7d28" MIMETYPE="model/mtl" SIZE="0"
                 CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e"
                 CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/qv3bz95m19_REF_MTL.MTL" />
             </file>
-            <file ID="uuid-1db5e9fe-2229-11ed-90ca-7e92631d7d28" MIMETYPE="image/bmp" SIZE="1735648"
+            <file ID="uuid-1db5e9fe-2229-11ed-90ca-7e92631d7d28" MIMETYPE="image/bmp" SIZE="0"
                 CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e"
                 CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/qv3bz95m19_REF_BMP.BMP" />

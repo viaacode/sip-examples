@@ -21,20 +21,20 @@
 
     <!-- ref to descriptive metadata about IE -->
     <dmdSec ID="uuid-4d18fdda-a20c-4410-9fce-30c6bff14f50">
-        <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple" xlink:href="metadata/descriptive/dc+schema.xml" MIMETYPE="text/xml" SIZE="729" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="2ded6a46ec99021298623a81f33a606f" CHECKSUMTYPE="MD5"/>
+        <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple" xlink:href="metadata/descriptive/dc+schema.xml" MIMETYPE="text/xml" SIZE="1046" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="2ded6a46ec99021298623a81f33a606f" CHECKSUMTYPE="MD5"/>
     </dmdSec>
 
     <!-- ref to the PREMIS metadata about IE/subIE(s)/package -->
     <amdSec>
         <digiprovMD ID="uuid-e2dcd7c5-5fad-4bcd-a7c7-762b0be75d0f">
-            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="1437" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="23cc828ed22090e0ab1ca7bae13afac4" CHECKSUMTYPE="MD5"/>
+            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="1501" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="23cc828ed22090e0ab1ca7bae13afac4" CHECKSUMTYPE="MD5"/>
         </digiprovMD>
     </amdSec>
 
     <!-- file section -->
     <fileSec ID="uuid-b8e1e265-7003-42e4-8c33-3fc95122d4f4">
         <fileGrp USE="Representations/representation_1" ID="uuid-6ec1cf49-0d4a-413d-9170-4dcb4bd09473">
-            <file ID="uuid-ba89c101-109a-4fe3-a4ed-0c276b20e14c" MIMETYPE="text/xml" SIZE="2240" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="7dddde55e243ea923fc94c0ed86e08ef" CHECKSUMTYPE="MD5">
+            <file ID="uuid-ba89c101-109a-4fe3-a4ed-0c276b20e14c" MIMETYPE="text/xml" SIZE="2352" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="2e1506a1a108317b793e2b591a232220" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="representations/representation_1/METS.xml"/>
             </file>
         </fileGrp>

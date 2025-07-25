@@ -9,8 +9,8 @@
     <amdSec>
         <digiprovMD ID="uuid-f7972ff5-599e-4f60-8b7e-8bbf4e035482">
             <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple"
-                xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="4782"
-                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="b0cf9991f43609b1d79ea1aa64ae246b"
+                xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="4818"
+                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="cb95893497b53736d82636066c8ef1c1"
                 CHECKSUMTYPE="MD5" />
         </digiprovMD>
     </amdSec>
