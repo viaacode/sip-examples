@@ -6,13 +6,6 @@
 
     <metsHdr CREATEDATE="2022-02-16T10:02:37.009+02:00" csip:OAISPACKAGETYPE="SIP"/>
 
-    <dmdSec ID="uuid-4d18fdda-a20c-4410-9fce-30c6bff14f50">
-        <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple"
-            xlink:href="./metadata/descriptive/dc+schema.xml" MIMETYPE="text/xml" SIZE="729"
-            CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="011e13638bebf01d0e23cfd91e44b841"
-            CHECKSUMTYPE="MD5" />
-    </dmdSec>
-
     <amdSec>
         <digiprovMD ID="uuid-f7972ff5-599e-4f60-8b7e-8bbf4e035482">
             <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple"
@@ -36,8 +29,7 @@
     <structMap ID="uuid-f81f8688-b278-4397-b59c-82593b11a2b9" TYPE="PHYSICAL" LABEL="CSIP">
         <div ID="uuid-a5e05d29-49d9-4466-b070-19b8990b5029">
             <div ID="uuid-af54ed63-8361-4d90-a30f-99d02de24857" LABEL="Metadata"
-                ADMID="uuid-f7972ff5-599e-4f60-8b7e-8bbf4e035482"
-                DMDID="uuid-4d18fdda-a20c-4410-9fce-30c6bff14f50" />
+                ADMID="uuid-f7972ff5-599e-4f60-8b7e-8bbf4e035482" />
             <div ID="uuid-c137b167-7254-4085-b965-75980976638d" LABEL="data">
                 <fptr FILEID="uuid-d020d7d1-f258-40af-8788-04cf62a0032b" />
             </div>
