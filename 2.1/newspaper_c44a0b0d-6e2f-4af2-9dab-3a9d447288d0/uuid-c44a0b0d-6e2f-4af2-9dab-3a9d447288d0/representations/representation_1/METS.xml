@@ -2,15 +2,15 @@
 <mets xmlns="http://www.loc.gov/METS/" xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS"
     xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    OBJID="representation_1" TYPE="Textual works - Print"
-    PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP.xml" csip:CONTENTINFORMATIONTYPE="OTHER" csip:OTHERCONTENTINFORMATIONTYPE="https://data.hetarchief.be/id/sip/2.1/bibliographic" xsi:schemaLocation="https://www.w3.org./1999/xlink http://www.loc.gov/standards/xlink/xlink.xsd  http://www.loc.gov/METS/ https://www.loc.gov/standards/mets/mets.xsd https://DILCIS.eu/XML/METS/CSIPExtensionMETS https://earkcsip.dilcis.eu/schema/DILCISExtensionMETS.xsd https://DILCIS.eu/XML/METS/SIPExtensionMETS https://earksip.dilcis.eu/schema/DILCISExtensionSIPMETS.xsd">
+    OBJID="representation_1" TYPE="Textual works – Print"
+    PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP-v2-2-0.xml" csip:CONTENTINFORMATIONTYPE="OTHER" csip:OTHERCONTENTINFORMATIONTYPE="https://data.hetarchief.be/id/sip/2.1/bibliographic" xsi:schemaLocation="https://www.w3.org./1999/xlink http://www.loc.gov/standards/xlink/xlink.xsd  http://www.loc.gov/METS/ https://www.loc.gov/standards/mets/mets.xsd https://DILCIS.eu/XML/METS/CSIPExtensionMETS https://earkcsip.dilcis.eu/schema/DILCISExtensionMETS.xsd https://DILCIS.eu/XML/METS/SIPExtensionMETS https://earksip.dilcis.eu/schema/DILCISExtensionSIPMETS.xsd">
 
-    <metsHdr CREATEDATE="2022-02-16T10:02:37.009+02:00" />
+    <metsHdr CREATEDATE="2022-02-16T10:02:37.009+02:00" csip:OAISPACKAGETYPE="SIP"/>
 
     <amdSec>
         <digiprovMD ID="uuid-572c2067-c1de-4206-b33c-7eae7301a36d">
             <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple"
-                xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="13544"
+                xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="13568"
                 CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="366b7ee983d6f47ffd920e8e162715a5"
                 CHECKSUMTYPE="MD5" />
         </digiprovMD>
@@ -41,11 +41,11 @@
 
     <!-- structural map for the structure of the SIP itself -->
     <structMap ID="uuid-04647bb4-f524-435b-b4bf-5fe7a926b9d4" TYPE="PHYSICAL" LABEL="CSIP">
-        <div ID="uuid-74e4335c-1d24-42bc-bbd0-864bd216d99c" LABEL="representation_1">
+        <div ID="uuid-74e4335c-1d24-42bc-bbd0-864bd216d99c">
             <div ID="uuid-60d4a0db-769c-42a9-8ef8-c395bb555803" LABEL="Metadata"
                 ADMID="uuid-572c2067-c1de-4206-b33c-7eae7301a36d" />
             <!-- added divs with order attributes for page order -->
-            <div ID="uuid-41bacec1-1d6c-467a-8020-7114115562a8" LABEL="Representations">
+            <div ID="uuid-41bacec1-1d6c-467a-8020-7114115562a8" LABEL="data">
                 <div ID="uuid-47e52361-8508-4ae1-ad8c-0e1f5382065e" TYPE="page" ORDER="1">
                     <fptr FILEID="uuid-9850cb03-b1fd-4661-a4fb-e3dfcf25e9e5" />
                 </div>
