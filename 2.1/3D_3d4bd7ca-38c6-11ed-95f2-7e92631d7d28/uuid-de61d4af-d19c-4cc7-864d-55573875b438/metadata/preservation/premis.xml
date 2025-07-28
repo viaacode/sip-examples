@@ -146,11 +146,11 @@
             <premis:linkingAgentRole valueURI="http://id.loc.gov/vocabulary/preservation/eventRelatedAgentRole/imp">implementer</premis:linkingAgentRole>
         </premis:linkingAgentIdentifier>
         
-        <!-- <premis:linkingObjectIdentifier>
+        <premis:linkingObjectIdentifier>
             <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
-            <premis:linkingObjectIdentifierValue>uuid-e25b4530-4e40-11ee-bf71-7e92631d7d28</premis:linkingObjectIdentifierValue>
+            <premis:linkingObjectIdentifierValue>uuid-e3aff200-237b-11ed-8d32-7e92631d7d28</premis:linkingObjectIdentifierValue>
             <premis:linkingObjectRole valueURI="http://id.loc.gov/vocabulary/preservation/eventRelatedObjectRole/sou">source</premis:linkingObjectRole>
-        </premis:linkingObjectIdentifier> -->
+        </premis:linkingObjectIdentifier>
     </premis:event>
 
     <premis:agent>
