@@ -469,7 +469,7 @@
       <premis:agentIdentifierValue>OR-jw86m54</premis:agentIdentifierValue>
     </premis:agentIdentifier>
     <premis:agentName>FelixArchief</premis:agentName>
-    <premis:agentType>CP-AGENT</premis:agentType>
+    <premis:agentType>organization</premis:agentType>
   </premis:agent>
 
   <!-- reference to the service provider -->
@@ -479,7 +479,7 @@
       <premis:agentIdentifierValue>OR-183420s</premis:agentIdentifierValue>
     </premis:agentIdentifier>
     <premis:agentName>Vectracom</premis:agentName>
-    <premis:agentType>SP-AGENT</premis:agentType>
+    <premis:agentType>organization</premis:agentType>
   </premis:agent>
 
   <premis:agent>
@@ -488,7 +488,7 @@
       <premis:agentIdentifierValue>uuid-ef2f95b3-529a-4226-af41-f103021d8089</premis:agentIdentifierValue>
     </premis:agentIdentifier>
     <premis:agentName>David</premis:agentName>
-    <premis:agentType>SP-AGENT</premis:agentType>
+    <premis:agentType>person</premis:agentType>
   </premis:agent>
 
   <premis:agent>
@@ -497,7 +497,7 @@
       <premis:agentIdentifierValue>uuid-2cbc112a-84e2-4999-8f49-03156509a784</premis:agentIdentifierValue>
     </premis:agentIdentifier>
     <premis:agentName>David/ScanStation</premis:agentName>
-    <premis:agentType>SP-AGENT</premis:agentType>
+    <premis:agentType>hardware</premis:agentType>
   </premis:agent>
 
   <premis:agent>
@@ -506,7 +506,7 @@
       <premis:agentIdentifierValue>uuid-6e7385e3-97e7-43ea-b6d5-06ba039c2db6</premis:agentIdentifierValue>
     </premis:agentIdentifier>
     <premis:agentName>JulienS/RAWcooked 23.09.20241109, FFmpeg 7.1</premis:agentName>
-    <premis:agentType>SP-AGENT</premis:agentType>
+    <premis:agentType>software</premis:agentType>
   </premis:agent>
 
   <premis:agent>
@@ -515,7 +515,7 @@
       <premis:agentIdentifierValue>uuid-b16df46f-69cb-4899-8f64-7bc77808a11e</premis:agentIdentifierValue>
     </premis:agentIdentifier>
     <premis:agentName>JulienS/Nucoda</premis:agentName>
-    <premis:agentType>SP-AGENT</premis:agentType>
+    <premis:agentType>software</premis:agentType>
   </premis:agent>
 
 </premis:premis>
