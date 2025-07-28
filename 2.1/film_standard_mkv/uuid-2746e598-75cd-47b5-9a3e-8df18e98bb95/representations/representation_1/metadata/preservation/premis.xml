@@ -61,8 +61,7 @@
           <premis:formatRegistryKey>fmt/569</premis:formatRegistryKey>
           <premis:formatRegistryRole authority="formatRegistryRole"
             authorityURI="http://id.loc.gov/vocabulary/preservation/formatRegistryRole"
-            valueURI="http://id.loc.gov/vocabulary/preservation/formatRegistryRole/spe">
-            specification</premis:formatRegistryRole>
+            valueURI="http://id.loc.gov/vocabulary/preservation/formatRegistryRole/spe">specification</premis:formatRegistryRole>
         </premis:formatRegistry>
       </premis:format>
     </premis:objectCharacteristics>

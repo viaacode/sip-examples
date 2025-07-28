@@ -57,9 +57,9 @@
     <premis:objectCharacteristics>
       <premis:fixity>
         <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
-        <premis:messageDigest>9b7dd51ee94d1cc666392f5fbb6d9ea2</premis:messageDigest>
+        <premis:messageDigest>40e35538f39a4c773ded57e7a8e6ea5b</premis:messageDigest>
       </premis:fixity>
-      <premis:size>558891008</premis:size>
+      <premis:size>970</premis:size>
       <premis:format>
         <premis:formatRegistry>
           <premis:formatRegistryName>PRONOM</premis:formatRegistryName>
@@ -69,7 +69,7 @@
       </premis:format>
     </premis:objectCharacteristics>
 
-    <premis:originalName>qv3bz95m19_ARCH_OBJ</premis:originalName>
+    <premis:originalName>qv3bz95m19_ARCH_OBJ.OBJ</premis:originalName>
 
     <!-- relationship between file and its representation -->
     <premis:relationship>
@@ -93,9 +93,9 @@
     <premis:objectCharacteristics>
       <premis:fixity>
         <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
-        <premis:messageDigest>9b7dd51ee94d1cc666392f5fbb6d9ea2</premis:messageDigest>
+        <premis:messageDigest>7bc619a09bc224db5c0a8afccd419845</premis:messageDigest>
       </premis:fixity>
-      <premis:size>558891008</premis:size>
+      <premis:size>242</premis:size>
       <premis:format>
         <premis:formatRegistry>
           <premis:formatRegistryName>PRONOM</premis:formatRegistryName>
@@ -106,7 +106,7 @@
       </premis:format>
     </premis:objectCharacteristics>
 
-    <premis:originalName>qv3bz95m19_ARCH_MTL</premis:originalName>
+    <premis:originalName>qv3bz95m19_ARCH_MTL.MTL</premis:originalName>
 
     <!-- relationship between file and its representation -->
     <premis:relationship>
@@ -130,9 +130,9 @@
     <premis:objectCharacteristics>
       <premis:fixity>
         <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
-        <premis:messageDigest>9b7dd51ee94d1cc666392f5fbb6d9ea2</premis:messageDigest>
+        <premis:messageDigest>cdc7a99a7a6f1fb97c09cb608f116050</premis:messageDigest>
       </premis:fixity>
-      <premis:size>558891008</premis:size>
+      <premis:size>8459</premis:size>
       <premis:format>
         <premis:formatRegistry>
           <premis:formatRegistryName>PRONOM</premis:formatRegistryName>
@@ -143,7 +143,7 @@
       </premis:format>
     </premis:objectCharacteristics>
 
-    <premis:originalName>qv3bz95m19_ARCH_TIFF_COLOR</premis:originalName>
+    <premis:originalName>qv3bz95m19_ARCH_TIFF_COLOR.TIFF</premis:originalName>
 
     <!-- relationship between file and its representation -->
     <premis:relationship>

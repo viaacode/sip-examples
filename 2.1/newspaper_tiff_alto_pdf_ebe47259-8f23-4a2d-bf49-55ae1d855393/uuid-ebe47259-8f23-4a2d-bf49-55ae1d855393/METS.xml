@@ -34,17 +34,17 @@
     <!-- file section -->
     <fileSec ID="uuid-32e915fd-1c5d-40a9-91fc-c936f2ca54ef">
         <fileGrp USE="Representations/representation_1" ID="uuid-ea8fbe74-9298-4d56-8a64-338d835a902c">
-            <file ID="uuid-7eecb0ea-d63b-4f01-880d-387e4bae5273" MIMETYPE="text/xml" SIZE="3992" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="e910a7edafbcb1bd7119abc61949f6a1" CHECKSUMTYPE="MD5">
+            <file ID="uuid-7eecb0ea-d63b-4f01-880d-387e4bae5273" MIMETYPE="text/xml" SIZE="3992" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="fb2255df52b0aee6ed18f7c11b0ac177" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml"/>
             </file>
         </fileGrp>
         <fileGrp USE="Representations/representation_2" ID="uuid-ad3753a4-9b6c-4993-b954-037cd8555f70">
-            <file ID="uuid-08d65d55-fa53-440e-ae2d-59897eabde11" MIMETYPE="text/xml" SIZE="3862" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="b67a97cd12f83385ff78917ed8fc7f9c" CHECKSUMTYPE="MD5">
+            <file ID="uuid-08d65d55-fa53-440e-ae2d-59897eabde11" MIMETYPE="text/xml" SIZE="3862" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="6f86616bc3e3e445302f0f554f48ff59" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_2/METS.xml"/>
             </file>
         </fileGrp>
         <fileGrp USE="Representations/representation_3" ID="uuid-f5589a35-41e8-4411-a7b3-845edd393d84">
-            <file ID="uuid-e92d7759-96f7-44a5-903e-e829628e99a3" MIMETYPE="text/xml" SIZE="2502" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="fcbbe5c8da4f7cf562370d3fd1fcb90c" CHECKSUMTYPE="MD5">
+            <file ID="uuid-e92d7759-96f7-44a5-903e-e829628e99a3" MIMETYPE="text/xml" SIZE="2502" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="8a5992873a1e7dfe67075fc222fedb1e" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_3/METS.xml"/>
             </file>
         </fileGrp>

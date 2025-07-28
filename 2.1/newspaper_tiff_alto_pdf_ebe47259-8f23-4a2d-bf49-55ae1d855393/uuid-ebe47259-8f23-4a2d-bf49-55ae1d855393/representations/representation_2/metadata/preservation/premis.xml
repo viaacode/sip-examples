@@ -47,9 +47,9 @@
     <premis:objectCharacteristics>
       <premis:fixity>
         <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
-        <premis:messageDigest>d41d8cd98f00b204e9800998ecf8427e</premis:messageDigest>
+        <premis:messageDigest>dc830f35abcb2b10c2ef05821daa2622</premis:messageDigest>
       </premis:fixity>
-      <premis:size>0</premis:size>
+      <premis:size>204</premis:size>
       <premis:format>
         <premis:formatRegistry>
           <premis:formatRegistryName>PRONOM</premis:formatRegistryName>
@@ -97,9 +97,9 @@
     <premis:objectCharacteristics>
       <premis:fixity>
         <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
-        <premis:messageDigest>d41d8cd98f00b204e9800998ecf8427e</premis:messageDigest>
+        <premis:messageDigest>33efbcfe0d6350733cbab49aa7495095</premis:messageDigest>
       </premis:fixity>
-      <premis:size>0</premis:size>
+      <premis:size>204</premis:size>
       <premis:format>
         <premis:formatRegistry>
           <premis:formatRegistryName>PRONOM</premis:formatRegistryName>
@@ -147,9 +147,9 @@
     <premis:objectCharacteristics>
       <premis:fixity>
         <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
-        <premis:messageDigest>d41d8cd98f00b204e9800998ecf8427e</premis:messageDigest>
+        <premis:messageDigest>3aac995d8de8f24a61266b7dedd4eace</premis:messageDigest>
       </premis:fixity>
-      <premis:size>0</premis:size>
+      <premis:size>204</premis:size>
       <premis:format>
         <premis:formatRegistry>
           <premis:formatRegistryName>PRONOM</premis:formatRegistryName>
