@@ -12,15 +12,15 @@
     <fileSec ID="uuid-5852a5bc-2f87-45c2-abb1-8b224339d391">
         <fileGrp USE="data" ID="uuid-7b0ef544-6ddd-42c9-8d61-b1fbc98f4164">
             <!-- dummy txt file filling in for alto xml file -->
-            <file ID="uuid-fd5fec40-a696-40d4-be7b-e0a01a2bf0e3" MIMETYPE="application/xml" SIZE="0" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e" CHECKSUMTYPE="MD5">
+            <file ID="uuid-fd5fec40-a696-40d4-be7b-e0a01a2bf0e3" MIMETYPE="application/xml" SIZE="204" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="dc830f35abcb2b10c2ef05821daa2622" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/18950101_0001.xml" />
             </file>
             <!-- dummy txt file filling in for alto xml file -->
-            <file ID="uuid-d63b064f-7fed-4981-983c-6c99c03fd4e5" MIMETYPE="application/xml" SIZE="0" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e" CHECKSUMTYPE="MD5">
+            <file ID="uuid-d63b064f-7fed-4981-983c-6c99c03fd4e5" MIMETYPE="application/xml" SIZE="204" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="33efbcfe0d6350733cbab49aa7495095" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/18950101_0002.xml" />
             </file>
             <!-- dummy txt file filling in for alto xml file -->
-            <file ID="uuid-cfd8a279-177c-48ae-9034-66b0a6f8daee" MIMETYPE="application/xml" SIZE="0" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e" CHECKSUMTYPE="MD5">
+            <file ID="uuid-cfd8a279-177c-48ae-9034-66b0a6f8daee" MIMETYPE="application/xml" SIZE="204" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="3aac995d8de8f24a61266b7dedd4eace" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/18950101_0003.xml" />
             </file>
         </fileGrp>
