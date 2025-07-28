@@ -35,22 +35,22 @@
     <fileSec ID="uuid-b8e1e265-7003-42e4-8c33-3fc95122d4f4">
 
         <fileGrp USE="Representations/representation_1" ID="uuid-A0A670BA-0E14-40E6-BCE0-62FC42D8B4A6">
-            <file ID="uuid-ba89c101-109a-4fe3-a4ed-0c276b20e14c" MIMETYPE="text/xml" SIZE="2460" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="7f59df4ea54e3636d1e25fbb529b5581" CHECKSUMTYPE="MD5">
+            <file ID="uuid-ba89c101-109a-4fe3-a4ed-0c276b20e14c" MIMETYPE="text/xml" SIZE="2462" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="d4880d7043d207b49dc7005bb19668d3" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_1/METS.xml"/>
             </file>
         </fileGrp>
         <fileGrp USE="Representations/representation_2" ID="uuid-93CB5D95-A091-4EAF-94B0-82B140510BE0">
-            <file ID="uuid-95f963f6-9939-4821-958b-4393051111dc" MIMETYPE="text/xml" SIZE="3222" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="1f13e110b7c0e11c62622afbab053576" CHECKSUMTYPE="MD5">
+            <file ID="uuid-95f963f6-9939-4821-958b-4393051111dc" MIMETYPE="text/xml" SIZE="3229" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="f27560b121beb660f76e1c8bb7959bda" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_2/METS.xml"/>
             </file>
         </fileGrp>
         <fileGrp USE="Representations/representation_3" ID="uuid-8DA59BD2-2B13-4317-8C6C-BCBED669D0F6">
-            <file ID="uuid-f5614ba7-68d6-449c-8ba0-ef652f63d74d" MIMETYPE="text/xml" SIZE="3188" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="286cd30d6b0e0b27d485e572023ff734" CHECKSUMTYPE="MD5">
+            <file ID="uuid-f5614ba7-68d6-449c-8ba0-ef652f63d74d" MIMETYPE="text/xml" SIZE="3195" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="11cadec30eecb005a8baf95db4b822bc" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_3/METS.xml"/>
             </file>
         </fileGrp>
         <fileGrp USE="Representations/representation_4" ID="uuid-237899F0-1C25-4DAC-BFA4-BAFC156714BB">
-            <file ID="uuid-0c30e685-3e3a-4a34-9448-6e6afd182637" MIMETYPE="text/xml" SIZE="3162" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="d838cce9e5ad5f97fa463f9fc94c09aa" CHECKSUMTYPE="MD5">
+            <file ID="uuid-0c30e685-3e3a-4a34-9448-6e6afd182637" MIMETYPE="text/xml" SIZE="3169" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="144d840e372cd9d2cdb9024e7d29b56c" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_4/METS.xml"/>
             </file>
         </fileGrp>

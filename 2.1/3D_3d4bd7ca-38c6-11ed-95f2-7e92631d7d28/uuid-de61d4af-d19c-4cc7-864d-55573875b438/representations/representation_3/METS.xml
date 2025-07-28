@@ -17,18 +17,18 @@
 
     <fileSec ID="uuid-170f9654-bf8d-45df-8451-48d6203b9f03">
         <fileGrp USE="data" ID="uuid-d020d7d1-f258-40af-8788-04cf62a0032b">
-            <file ID="uuid-d653bbfe-2228-11ed-86a9-7e92631d7d28" MIMETYPE="model/obj" SIZE="0"
-                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e"
+            <file ID="uuid-d653bbfe-2228-11ed-86a9-7e92631d7d28" MIMETYPE="model/obj" SIZE="969"
+                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="fd3b61bc73eaa9be19bb088a05710355"
                 CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/qv3bz95m19_VER_OBJ.OBJ" />
             </file>
-            <file ID="uuid-e03f9af2-2228-11ed-b370-7e92631d7d28" MIMETYPE="model/mtl" SIZE="0"
-                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e"
+            <file ID="uuid-e03f9af2-2228-11ed-b370-7e92631d7d28" MIMETYPE="model/mtl" SIZE="239"
+                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="c45757f7425a6d1c9edf6de1743cdaa2"
                 CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/qv3bz95m19_VER_MTL.MTL" />
             </file>
-            <file ID="uuid-e5dd9dec-2228-11ed-8871-7e92631d7d28" MIMETYPE="image/bmp" SIZE="0"
-                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e"
+            <file ID="uuid-e5dd9dec-2228-11ed-8871-7e92631d7d28" MIMETYPE="image/bmp" SIZE="7738"
+                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="288e32acc1488a69f47e9196fb7329ff"
                 CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple"
                     xlink:href="./data/qv3bz95m19_VER_COLOR_BMP.BMP" />
