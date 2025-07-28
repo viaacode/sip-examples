@@ -41,8 +41,8 @@
     <amdSec>
         <digiprovMD ID="uuid-6738f93b-1beb-4ce6-a1a8-3b99fc5e4c52">
             <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple"
-                xlink:href="metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="28687"
-                CREATED="2023-11-16T00:00:00+02:00" CHECKSUM="47f935b30c10f54eeb998b3f6d9e1896"
+                xlink:href="metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="28478"
+                CREATED="2023-11-16T00:00:00+02:00" CHECKSUM="8dfacf5687775f1a1db9bb3ec8a2a1e8"
                 CHECKSUMTYPE="MD5" />
         </digiprovMD>
     </amdSec>
@@ -52,7 +52,7 @@
         <fileGrp USE="Representations/representation_1"
             ID="uuid-f957888b-b1e5-4444-b742-2cbf8529a4d3">
             <file ID="uuid-9b0ad206-5f36-4683-918f-f06d707c757e" MIMETYPE="text/xml" SIZE="3125"
-                CREATED="2023-11-10T12:01:00+02:00" CHECKSUM="2de64b9778638a6c424129db0c134383"
+                CREATED="2023-11-10T12:01:00+02:00" CHECKSUM="5867c626b3220046bb86c1bf68df97ac"
                 CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple"
                     xlink:href="representations/representation_1/METS.xml" />

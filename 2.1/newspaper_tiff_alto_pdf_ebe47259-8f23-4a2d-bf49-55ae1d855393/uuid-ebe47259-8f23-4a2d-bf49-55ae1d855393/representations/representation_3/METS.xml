@@ -5,14 +5,14 @@
 
     <amdSec>
         <digiprovMD ID="uuid-0fe3be01-ec81-4623-a376-f6b836575a82">
-            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="7394" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="e8a7925d3284fc0b3ecfeadb3e5d52c3" CHECKSUMTYPE="MD5" />
+            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="7397" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="b6cde832f10305cff85044f4fa1a5e4f" CHECKSUMTYPE="MD5" />
         </digiprovMD>
     </amdSec>
 
     <fileSec ID="uuid-0b697139-4a37-4dcf-aec1-a6baf4602aac">
         <fileGrp USE="data" ID="uuid-3e0e5e49-5e8a-4ecd-af5f-4f998cec460b">
             <!-- dummy txt file filling in for pdf file -->
-            <file ID="uuid-91d69ad4-67b1-4585-a452-a9fa2d187da4" MIMETYPE="application/postscript" SIZE="0" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e" CHECKSUMTYPE="MD5">
+            <file ID="uuid-91d69ad4-67b1-4585-a452-a9fa2d187da4" MIMETYPE="application/postscript" SIZE="2853" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="178e2a3f3a713d9940dc69099aa0b7b1" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/18950101.pdf" />
             </file>
         </fileGrp>

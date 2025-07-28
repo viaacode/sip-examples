@@ -5,22 +5,22 @@
 
     <amdSec>
         <digiprovMD ID="uuid-281dbc55-8250-4e54-a490-6cdf30880589">
-            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="13610" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="c310cb8e3d9c7485aaff3d43ed17dc4d" CHECKSUMTYPE="MD5" />
+            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="13616" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="3b10ea08b8e39a2e79a861a3b1ba26dc" CHECKSUMTYPE="MD5" />
         </digiprovMD>
     </amdSec>
 
     <fileSec ID="uuid-5852a5bc-2f87-45c2-abb1-8b224339d391">
         <fileGrp USE="data" ID="uuid-7b0ef544-6ddd-42c9-8d61-b1fbc98f4164">
             <!-- dummy txt file filling in for alto xml file -->
-            <file ID="uuid-fd5fec40-a696-40d4-be7b-e0a01a2bf0e3" MIMETYPE="application/xml" SIZE="0" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e" CHECKSUMTYPE="MD5">
+            <file ID="uuid-fd5fec40-a696-40d4-be7b-e0a01a2bf0e3" MIMETYPE="application/xml" SIZE="204" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="ce3d8c162fc8c8c309433f67de600008" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/18950101_0001.xml" />
             </file>
             <!-- dummy txt file filling in for alto xml file -->
-            <file ID="uuid-d63b064f-7fed-4981-983c-6c99c03fd4e5" MIMETYPE="application/xml" SIZE="0" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e" CHECKSUMTYPE="MD5">
+            <file ID="uuid-d63b064f-7fed-4981-983c-6c99c03fd4e5" MIMETYPE="application/xml" SIZE="204" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="e2c3ea9a2d1821a1630f9196b6aa7e32" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/18950101_0002.xml" />
             </file>
             <!-- dummy txt file filling in for alto xml file -->
-            <file ID="uuid-cfd8a279-177c-48ae-9034-66b0a6f8daee" MIMETYPE="application/xml" SIZE="0" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e" CHECKSUMTYPE="MD5">
+            <file ID="uuid-cfd8a279-177c-48ae-9034-66b0a6f8daee" MIMETYPE="application/xml" SIZE="204" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="ade62047556b413489f2b2f6af796a5a" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/18950101_0003.xml" />
             </file>
         </fileGrp>

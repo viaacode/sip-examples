@@ -48,9 +48,9 @@
     <premis:objectCharacteristics>
       <premis:fixity>
         <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
-        <premis:messageDigest>9b7dd51ee94d1cc666392f5fbb6d9ea2</premis:messageDigest>
+        <premis:messageDigest>4c8924f09e85f7adf81b467612aaa408</premis:messageDigest>
       </premis:fixity>
-      <premis:size>558891008</premis:size>
+      <premis:size>684</premis:size>
       <premis:format>
         <premis:formatRegistry>
           <premis:formatRegistryName>PRONOM</premis:formatRegistryName>
@@ -60,7 +60,7 @@
       </premis:format>
     </premis:objectCharacteristics>
 
-    <premis:originalName>PID_ARCH_STL</premis:originalName>
+    <premis:originalName>qv3bz95m19_ARCH_STL.STL</premis:originalName>
 
     <!-- relationship between file and its representation -->
     <premis:relationship>

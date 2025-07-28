@@ -39,9 +39,9 @@
     <premis:objectCharacteristics>
       <premis:fixity>
         <premis:messageDigestAlgorithm authority="cryptographicHashFunctions" authorityURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions" valueURI="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5">MD5</premis:messageDigestAlgorithm>
-        <premis:messageDigest>d41d8cd98f00b204e9800998ecf8427e</premis:messageDigest>
+        <premis:messageDigest>178e2a3f3a713d9940dc69099aa0b7b1</premis:messageDigest>
       </premis:fixity>
-      <premis:size>0</premis:size>
+      <premis:size>2853</premis:size>
       <premis:format>
         <premis:formatRegistry>
           <premis:formatRegistryName>PRONOM</premis:formatRegistryName>

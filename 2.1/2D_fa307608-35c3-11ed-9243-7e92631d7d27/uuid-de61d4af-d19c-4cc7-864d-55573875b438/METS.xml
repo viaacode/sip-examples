@@ -49,7 +49,7 @@
             </file>
         </fileGrp>
         <fileGrp USE="Representations/representation_4" ID="uuid-237899F0-1C25-4DAC-BFA4-BAFC156714BB">
-            <file ID="uuid-0c30e685-3e3a-4a34-9448-6e6afd182637" MIMETYPE="text/xml" SIZE="7282" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="37727d6a214aabcdd97cbf500466ed62" CHECKSUMTYPE="MD5">
+            <file ID="uuid-0c30e685-3e3a-4a34-9448-6e6afd182637" MIMETYPE="text/xml" SIZE="7282" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="b7549f5a014b00340e625807c9ac6797" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./representations/representation_4/METS.xml"/>
             </file>
         </fileGrp>

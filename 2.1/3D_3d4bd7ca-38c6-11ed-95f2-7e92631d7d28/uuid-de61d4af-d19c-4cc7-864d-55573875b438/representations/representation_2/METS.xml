@@ -9,29 +9,29 @@
     <amdSec>
         <digiprovMD ID="uuid-f7972ff5-599e-4f60-8b7e-8bbf4e035482">
             <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple"
-                xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="10640"
-                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="9d14b065c0ab3761fc869d99340829d2"
+                xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="10636"
+                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="5ee22f3e8598f4a207fa89d6cd72c9e3"
                 CHECKSUMTYPE="MD5" />
         </digiprovMD>
     </amdSec>
 
     <fileSec ID="uuid-170f9654-bf8d-45df-8451-48d6203b9f03">
         <fileGrp USE="data" ID="uuid-d020d7d1-f258-40af-8788-04cf62a0032b">
-            <file ID="uuid-67757d90-2227-11ed-84ee-7e92631d7d28" MIMETYPE="model/obj" SIZE="0"
-                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e"
+            <file ID="uuid-67757d90-2227-11ed-84ee-7e92631d7d28" MIMETYPE="model/obj" SIZE="970"
+                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="40e35538f39a4c773ded57e7a8e6ea5b"
                 CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple"
                     xlink:href="./data/qv3bz95m19_ARCH_OBJ.OBJ" />
             </file>
-            <file ID="uuid-6df65478-2227-11ed-9b8f-7e92631d7d28" MIMETYPE="model/mtl" SIZE="0"
-                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="d41d8cd98f00b204e9800998ecf8427e"
+            <file ID="uuid-6df65478-2227-11ed-9b8f-7e92631d7d28" MIMETYPE="model/mtl" SIZE="242"
+                CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="7bc619a09bc224db5c0a8afccd419845"
                 CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple"
                     xlink:href="./data/qv3bz95m19_ARCH_MTL.MTL" />
             </file>
             <file ID="uuid-73ca78ac-2227-11ed-a848-7e92631d7d28" MIMETYPE="image/tiff"
-                SIZE="0" CREATED="2022-02-16T10:02:37.009+02:00"
-                CHECKSUM="d41d8cd98f00b204e9800998ecf8427e" CHECKSUMTYPE="MD5">
+                SIZE="8459" CREATED="2022-02-16T10:02:37.009+02:00"
+                CHECKSUM="cdc7a99a7a6f1fb97c09cb608f116050" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple"
                     xlink:href="./data/qv3bz95m19_ARCH_TIFF_COLOR.TIFF" />
             </file>
