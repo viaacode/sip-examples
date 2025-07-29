@@ -158,6 +158,10 @@
             <premis:agentIdentifierType>MEEMOO-OR-ID</premis:agentIdentifierType>
             <premis:agentIdentifierValue>OR-x05xc4w</premis:agentIdentifierValue>
         </premis:agentIdentifier>
+        <premis:agentIdentifier>
+            <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+            <premis:agentIdentifierValue>uuid-2309dc4a-649d-414e-9b14-77a2ac9e6c74</premis:agentIdentifierValue>
+        </premis:agentIdentifier>
         <premis:agentName>De Logi &amp; Hoorne - Erfgo3D</premis:agentName>
         <premis:agentType>organization</premis:agentType>
     </premis:agent>

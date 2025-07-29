@@ -465,6 +465,10 @@
   <!-- reference to the content partner -->
   <premis:agent>
     <premis:agentIdentifier>
+      <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+      <premis:agentIdentifierValue>uuid-1d2dfde8-fa8b-4ae1-86b5-37d20a1f002a</premis:agentIdentifierValue>
+    </premis:agentIdentifier>
+    <premis:agentIdentifier>
       <premis:agentIdentifierType>MEEMOO-OR-ID</premis:agentIdentifierType>
       <premis:agentIdentifierValue>OR-jw86m54</premis:agentIdentifierValue>
     </premis:agentIdentifier>
@@ -477,6 +481,10 @@
     <premis:agentIdentifier>
       <premis:agentIdentifierType>MEEMOO-OR-ID</premis:agentIdentifierType>
       <premis:agentIdentifierValue>OR-183420s</premis:agentIdentifierValue>
+    </premis:agentIdentifier>
+    <premis:agentIdentifier>
+      <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+      <premis:agentIdentifierValue>uuid-5c4e7958-21e2-4af6-8512-fc78a9e2377f</premis:agentIdentifierValue>
     </premis:agentIdentifier>
     <premis:agentName>Vectracom</premis:agentName>
     <premis:agentType>organization</premis:agentType>
