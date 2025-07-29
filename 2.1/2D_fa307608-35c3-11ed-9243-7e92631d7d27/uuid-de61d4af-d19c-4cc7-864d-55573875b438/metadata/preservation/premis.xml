@@ -104,6 +104,10 @@
             <premis:agentIdentifierType>MEEMOO-OR-ID</premis:agentIdentifierType>
             <premis:agentIdentifierValue>OR-xg9fb0b</premis:agentIdentifierValue>
         </premis:agentIdentifier>
+        <premis:agentIdentifier>
+            <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+            <premis:agentIdentifierValue>uuid-e8cc1379-755d-4890-af8c-ae1a4cba0964</premis:agentIdentifierValue>
+        </premis:agentIdentifier>
         <premis:agentName>Cedric Verhelst</premis:agentName>
         <premis:agentType>person</premis:agentType>
         <premis:agentExtension>
