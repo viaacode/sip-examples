@@ -99,7 +99,7 @@
         <premis:linkingAgentIdentifier>
             <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
             <premis:linkingAgentIdentifierValue>uuid-56d22bd6-4e41-11ee-a105-7e92631d7d28</premis:linkingAgentIdentifierValue>
-            <premis:linkingAgentRole valueURI="http://id.loc.gov/vocabulary/preservation/eventRelatedAgentRole/exe">executor</premis:linkingAgentRole>
+            <premis:linkingAgentRole>instrument</premis:linkingAgentRole>
         </premis:linkingAgentIdentifier>
         
         <premis:linkingObjectIdentifier>
