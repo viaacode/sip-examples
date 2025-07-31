@@ -25,7 +25,7 @@
   <schema:caption>VIAA.dc_description_ondertitels</schema:caption>
   <schema:transcript>VIAA.dc_description_transcriptie</schema:transcript>
   <schema:creditText>VIAA.dc_rights_credit</schema:creditText>
-  <schema:genre>VIAA.dc_types.genre</schema:genre>
+  <schema:genre xml:lang="nl">VIAA.dc_types.genre</schema:genre>
   <!-- alles mbt. bijdrager -->
   <dcterms:contributor>VIAA.dc_contributors.Bijdrager</dcterms:contributor>
   <dcterms:contributor schema:roleName="adviseur">VIAA.dc_contributors.Adviseur</dcterms:contributor>

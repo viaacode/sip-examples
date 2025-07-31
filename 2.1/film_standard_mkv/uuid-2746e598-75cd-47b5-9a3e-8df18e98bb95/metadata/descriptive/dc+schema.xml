@@ -20,7 +20,7 @@
   <dcterms:created xsi:type="edtf:EDTF-level1">XXXX-XX-XX</dcterms:created>
 
   <!-- genre of the resource -->
-  <schema:genre>amateur recording</schema:genre>
+  <schema:genre xml:lang="nl">amateur recording</schema:genre>
 
   <!-- Country where the resource originated -->
   <schema:countryOfOrigin>BE</schema:countryOfOrigin>
