@@ -20,7 +20,7 @@
     </metsHdr>
 
     <!-- ref to descriptive metadata about IE: DCTERMS format -->
-    <dmdSec ID="uuid-3936403d-133f-4765-b3b9-0a46df28db17">
+    <dmdSec ID="uuid-3936403d-133f-4765-b3b9-0a46df28db17" CREATED="2022-02-16T10:01:15.014+02:00">
         <mdRef LOCTYPE="URL" MDTYPE="DC" xlink:type="simple" xlink:href="./metadata/descriptive/dc+schema.xml" MIMETYPE="text/xml" SIZE="4305" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="a45153beef15efb8ea6bf8df8eca937e" CHECKSUMTYPE="MD5"/>
     </dmdSec>
 
