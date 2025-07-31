@@ -27,7 +27,7 @@
     <!-- ref to the PREMIS metadata about IE/subIE(s)/package -->
     <amdSec>
         <digiprovMD ID="uuid-e2dcd7c5-5fad-4bcd-a7c7-762b0be75d0f">
-            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="11376" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="80a16a74c4135c59d549ce935a60f324" CHECKSUMTYPE="MD5"/>
+            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="11550" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="3c12d4a1ed698cde0da8c4da426b86f8" CHECKSUMTYPE="MD5"/>
         </digiprovMD>
     </amdSec>
 
