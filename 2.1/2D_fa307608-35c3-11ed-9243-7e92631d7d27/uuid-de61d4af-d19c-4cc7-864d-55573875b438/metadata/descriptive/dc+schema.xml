@@ -35,7 +35,7 @@
   <dcterms:subject xml:lang="nl">Christus</dcterms:subject>
 
   <!-- creator -->
-  <schema:creator schema:roleName="auteur">
+  <schema:creator schema:roleName="Auteur">
     <schema:name xml:lang="nl">Anthony van Dyck</schema:name>
     <schema:birthDate xsi:type="edtf:EDTF-level1">1599-03-22</schema:birthDate>
     <schema:deathDate xsi:type="edtf:EDTF-level1">1641-12-09</schema:deathDate>
@@ -85,7 +85,7 @@
   <schema:isPartOf xsi:type="schema:CreativeWorkSeason">
     <schema:name xml:lang="nl">...</schema:name>
     <!-- VIAA.dc_titles.seizoennummer -->
-    <schema:position>1</schema:position>
+    <schema:seasonNumber>1</schema:seasonNumber>
   </schema:isPartOf>
 
 </metadata>

@@ -40,7 +40,7 @@
   <dcterms:rights xml:lang="en">public domain</dcterms:rights>
 
   <!-- creator -->
-  <schema:creator schema:roleName="auteur">
+  <schema:creator schema:roleName="Auteur">
     <schema:name xml:lang="nl">Walter Pompe</schema:name>
     <schema:birthDate xsi:type="edtf:EDTF-level1">1703-11-22</schema:birthDate>
     <schema:deathDate xsi:type="edtf:EDTF-level1">1777-02-16</schema:deathDate>

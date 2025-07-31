@@ -23,7 +23,7 @@
   <schema:genre xml:lang="nl">amateur recording</schema:genre>
 
   <!-- archiefvormer role -->
-  <schema:creator schema:roleName="archiefvormer">
+  <schema:creator schema:roleName="Archiefvormer">
     <schema:name xml:lang="nl">Dummy privéarchief</schema:name>
   </schema:creator>
 
