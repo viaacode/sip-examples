@@ -17,7 +17,7 @@
   <dcterms:identifier>uuid-f9ef158c-f03c-4840-836e-8ffb8e8ebe04</dcterms:identifier>
 
   <!-- creationdate -->
-  <dcterms:created xsi:type="edtf:EDTF-level1">XXXX-XX-XX</dcterms:created>
+  <dcterms:created xsi:type="edtf:EDTF-level2">XXXX-XX-XX</dcterms:created>
 
   <!-- genre of the resource -->
   <schema:genre xml:lang="nl">amateur recording</schema:genre>

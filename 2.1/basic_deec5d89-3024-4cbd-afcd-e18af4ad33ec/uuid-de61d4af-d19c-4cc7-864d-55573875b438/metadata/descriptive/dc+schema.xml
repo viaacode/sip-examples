@@ -12,7 +12,7 @@
   <dcterms:format>video</dcterms:format>
 
   <!-- date unknown -->
-  <dcterms:created xsi:type="edtf:EDTF-level1">XXXX</dcterms:created>
+  <dcterms:created xsi:type="edtf:EDTF-level2">XXXX-XX-XX</dcterms:created>
 
   <!-- multiple keywords about the resource -->
   <dcterms:subject xml:lang="nl">Cat</dcterms:subject>
