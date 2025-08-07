@@ -2,7 +2,7 @@
 <mets xmlns="http://www.loc.gov/METS/" xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS"
     xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
-    OBJID="representation_3" TYPE="Video – File-based and Physical Media"
+    OBJID="uuid-b8be27ca-6cde-4017-8464-65f68341d93c" TYPE="Video – File-based and Physical Media"
     PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP-v2-2-0.xml"
     csip:CONTENTINFORMATIONTYPE="OTHER"
     csip:OTHERCONTENTINFORMATIONTYPE="https://data.hetarchief.be/id/sip/2.1/film"
@@ -15,40 +15,40 @@
     <metsHdr CREATEDATE="2023-11-16T10:02:37.009+02:00" csip:OAISPACKAGETYPE="SIP" />
 
     <amdSec>
-        <digiprovMD ID="uuid-7b51db46-aa72-4bfe-970a-2a347991e0bb">
+        <digiprovMD ID="uuid-fdf09aed-1c69-4477-8169-4b18faa91b42">
             <!-- Size of the premis.xml file -->
             <!-- Creation date of the premis.xml file -->
             <!-- Checksum of the premis.xml file -->
             <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple"
-                xlink:href="metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="4964"
-                CREATED="2023-11-16T00:00:00+02:00" CHECKSUM="e4138ef535510a8234c26873e6728db5"
+                xlink:href="metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="4963"
+                CREATED="2023-11-16T00:00:00+02:00" CHECKSUM="c0a60e7ada82d31acc6cbc04b28e8822"
                 CHECKSUMTYPE="MD5" />
         </digiprovMD>
     </amdSec>
 
-    <fileSec ID="uuid-e00da111-c40d-46dc-82d2-d1cc9cfdffec">
+    <fileSec ID="uuid-6b6f16f7-ee5a-4f07-b4cc-1815cfeafa2f">
         <!-- Sizes of the files in data directory -->
         <!-- Creation dates of the files in data directory -->
         <!-- Checksums of the files in data directory -->
-        <fileGrp USE="data" ID="uuid-7421ad69-b2a3-46b2-90e5-164af8d3e42f">
-            <file ID="uuid-d6bb6a73-32f7-4724-bc1e-013e19f655b7" MIMETYPE="application/pdf"
-                SIZE="19933"
-                CREATED="2023-11-10T12:01:00+02:00" CHECKSUM="b0dfa6f04e6056ecd953a2ad127820e3"
+        <fileGrp USE="data" ID="uuid-8ad80dd6-3c97-460c-926b-9ed51a0a46e1">
+            <file ID="uuid-4d3b8d71-3610-4de0-b954-ace5033159ea" MIMETYPE="image/jpeg"
+                SIZE="5913"
+                CREATED="2023-11-10T12:01:00+02:00" CHECKSUM="b14d633a01600edabc450a0d0ae4390d"
                 CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple"
-                    xlink:href="data/dummy.pdf" />
+                    xlink:href="data/dummy.jpg" />
             </file>
         </fileGrp>
     </fileSec>
 
-    <structMap ID="uuid-d21a2bbc-9474-462f-97fb-8be757f1a1f4" TYPE="PHYSICAL" LABEL="CSIP">
-        <div ID="uuid-70953fd9-4a27-469c-a247-cdbd2a33c67a">
+    <structMap ID="uuid-20d67be1-d44d-4440-a7ad-431cbf0d61fe" TYPE="PHYSICAL" LABEL="CSIP">
+        <div ID="uuid-816922bd-08ad-436e-8e9b-0c52de14b2df">
             <!-- ADMID points to mets/amdSec/digiprovMD/@ID -->
-            <div ID="uuid-1238ffa7-1a2d-4b12-84c7-f27150459919" LABEL="Metadata"
-                ADMID="uuid-7b51db46-aa72-4bfe-970a-2a347991e0bb" />
-            <div ID="uuid-d937fed4-b933-41aa-9cf4-1af5b0bdf99b" LABEL="data">
+            <div ID="uuid-48e5315d-a7f1-43ba-affe-e7e5dc49f89a" LABEL="Metadata"
+                ADMID="uuid-fdf09aed-1c69-4477-8169-4b18faa91b42" />
+            <div ID="uuid-2e51dd86-a0e7-4014-a861-b4615480eb71" LABEL="data">
                 <!-- File pointers to file IDs in mets/fileSec/fileGrp[@USE="data"]/file/@ID -->
-                <fptr FILEID="uuid-d6bb6a73-32f7-4724-bc1e-013e19f655b7" />
+                <fptr FILEID="uuid-4d3b8d71-3610-4de0-b954-ace5033159ea" />
             </div>
         </div>
     </structMap>
