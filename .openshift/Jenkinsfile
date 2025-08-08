@@ -1,0 +1,60 @@
+pipeline {
+    agent {
+        dockerfile true
+    }
+    options {
+        timeout(time: 10, unit: 'MINUTES')
+        disableConcurrentBuilds()
+    }
+    stages {
+        stage('Validate against XSD') {
+            when {
+                anyOf {
+                    changeRequest target: 'main'
+                    branch 'main'
+                }
+            }
+            steps {
+                sh "python validation/validate_xsd.py ."
+            }
+        }
+        stage('Validate checksums and sizes') {
+            when {
+                anyOf {
+                    changeRequest target: 'main'
+                    branch 'main'
+                }
+            }
+            steps {
+                sh "python validation/validate_checksums_and_sizes.py ."
+            }
+        }
+    }
+    post {
+        success {
+            script {
+                if (env.BRANCH_NAME.startsWith('PR')) {
+                    setGitHubBuildStatus('Build', 'SUCCESS')
+                }
+            }
+        }
+        failure {
+            script {
+                if (env.BRANCH_NAME.startsWith('PR')) {
+                    setGitHubBuildStatus('Build', 'FAILURE')
+                }
+            }
+        }
+    }
+}
+
+void setGitHubBuildStatus(String message, String state) {
+    step([
+        $class: 'GitHubCommitStatusSetter',
+        reposSource: [$class: 'ManuallyEnteredRepositorySource', url: "${GIT_URL}"],
+        commitShaSource: [$class: 'ManuallyEnteredShaSource', sha: "${GIT_COMMIT}"],
+        errorHandlers: [[$class: 'ChangingBuildStatusErrorHandler', result: 'UNSTABLE']],
+        statusResultSource: [ $class: 'ConditionalStatusResultSource', results: [[$class: 'AnyBuildResult', message: message, state: state]] ]
+    ])
+}
+
