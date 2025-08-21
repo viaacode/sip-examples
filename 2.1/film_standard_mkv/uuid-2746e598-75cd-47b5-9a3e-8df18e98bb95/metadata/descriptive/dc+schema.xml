@@ -37,7 +37,7 @@
   <!-- VIAA licenses for the resource -->
   <dcterms:license>VIAA-ONDERWIJS</dcterms:license>
   <dcterms:license>VIAA-ONDERZOEK</dcterms:license>
-  <dcterms:license>VIAA-INTRA-CP-CONTENT</dcterms:license>
+  <dcterms:license>VIAA-INTRA_CP-CONTENT</dcterms:license>
   <dcterms:license>VIAA-INTRA_CP-METADATA-ALL</dcterms:license>
   <dcterms:license>VIAA-PUBLIEK-METADATA-LTD</dcterms:license>
   <dcterms:license>BEZOEKERTOOL-CONTENT</dcterms:license>

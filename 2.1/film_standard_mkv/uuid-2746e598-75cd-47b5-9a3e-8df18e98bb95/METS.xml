@@ -33,7 +33,7 @@
     <dmdSec ID="uuid-afaf863f-b9b5-48b4-88aa-1c2754bbafee" CREATED="2023-11-16T00:00:00+02:00">
         <mdRef LOCTYPE="URL" MDTYPE="OTHER" xlink:type="simple"
             xlink:href="metadata/descriptive/dc+schema.xml" MIMETYPE="text/xml" SIZE="1870"
-            CREATED="2023-11-16T00:00:00+02:00" CHECKSUM="79f48c72f55fb1f6c899f93102a27c8f"
+            CREATED="2023-11-16T00:00:00+02:00" CHECKSUM="43493d5032a2e1f3b740313017af700e"
             CHECKSUMTYPE="MD5" />
     </dmdSec>
 
