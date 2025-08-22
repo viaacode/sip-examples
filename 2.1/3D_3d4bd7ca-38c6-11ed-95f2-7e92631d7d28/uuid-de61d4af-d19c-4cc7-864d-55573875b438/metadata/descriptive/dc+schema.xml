@@ -67,8 +67,10 @@
     <schema:unitText>kg</schema:unitText>
     <schema:unitCode>KGM</schema:unitCode>
   </schema:weight>
+
   <schema:artMedium xml:lang="nl">terracotta</schema:artMedium>
   <schema:artMedium xml:lang="en">terracotta</schema:artMedium>
+
   <schema:artform xml:lang="nl">beeldhouwwerk</schema:artform>
   <schema:artform xml:lang="en">sculpture</schema:artform>
 
@@ -80,6 +82,10 @@
   <!-- VIAA.dc_titles.archief -->
   <schema:isPartOf xsi:type="schema:ArchiveComponent">
     <schema:name xml:lang="nl">...</schema:name>
+    <!-- VIAA.dc_titles.deelarchief -->
+    <schema:hasPart xsi:type="schema:ArchiveComponent">
+      <schema:name xml:lang="nl">...</schema:name>
+    </schema:hasPart>
   </schema:isPartOf>
 
   <!-- VIAA.dc_titles.programma & VIAA.dc_titles.serie -->
@@ -88,13 +94,10 @@
     <!-- VIAA.dc_titles.serienummer -->
     <schema:position>1</schema:position>
     <!-- VIAA.dc_titles.deelreeks -->
-    <schema:hasPart>
+    <schema:hasPart xsi:type="schema:CreativeWorkSeries">
       <schema:name xml:lang="nl">...</schema:name>
     </schema:hasPart>
   </schema:isPartOf>
-
-  <!-- VIAA.dc_titles.registratie -->
-  <!-- <dcterms:title xsi:type="RegistrationTitle">...</dcterms:title> -->
 
   <!-- VIAA.dc_titles.seizoen -->
   <schema:isPartOf xsi:type="schema:CreativeWorkSeason">

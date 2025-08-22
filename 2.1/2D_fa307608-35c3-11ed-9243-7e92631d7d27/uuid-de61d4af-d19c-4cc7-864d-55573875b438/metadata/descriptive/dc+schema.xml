@@ -76,7 +76,7 @@
     <!-- VIAA.dc_titles.serienummer -->
     <schema:position>1</schema:position>
     <!-- VIAA.dc_titles.deelreeks -->
-    <schema:hasPart>
+    <schema:hasPart xsi:type="schema:CreativeWorkSeries">
       <schema:name xml:lang="nl">...</schema:name>
     </schema:hasPart>
   </schema:isPartOf>
