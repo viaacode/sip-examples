@@ -9,8 +9,8 @@
         </agent>
         <!-- information about the archival creator-->
         <agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
-            <name>Flemish Cat Museum</name>
-            <note csip:NOTETYPE="IDENTIFICATIONCODE">OR-m30wc4t</note>
+            <name>meemoo</name>
+            <note csip:NOTETYPE="IDENTIFICATIONCODE">OR-w66976m</note>
         </agent>
         <!-- information about the submitting organisation -->
         <agent ROLE="CREATOR" TYPE="ORGANIZATION">

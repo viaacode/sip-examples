@@ -18,8 +18,8 @@
         <!-- information about the archival creator-->
         <!-- in this case: the content partner -->
         <agent ROLE="ARCHIVIST" TYPE="ORGANIZATION">
-            <name>archival creator</name>
-            <note csip:NOTETYPE="IDENTIFICATIONCODE">OR-jw86m54</note>
+            <name>meemoo</name>
+            <note csip:NOTETYPE="IDENTIFICATIONCODE">OR-w66976m</note>
         </agent>
         <!-- information about the submitting organisation -->
         <!-- in this case: the service provider -->
