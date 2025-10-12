@@ -43,8 +43,7 @@
     <!-- structural map -->
     <structMap ID="uuid-5673d42f-5a4b-40ba-90e1-f4367784fb34" TYPE="PHYSICAL" LABEL="CSIP">
         <div ID="uuid-6748938f-712e-4eef-bc92-57ace15cf0e3" LABEL="example-with-subtitles">
-            <div ID="uuid-0beaa043-c3f6-40b5-afef-afe446ba8622" LABEL="Metadata" ADMID="uuid-e06159c9-0133-49d5-a0a8-46c6e774cfac" DMDID="uuid-f1fdfc02-22e3-4a0c-bcf5-3901db9fbb05">
-            </div>
+            <div ID="uuid-0beaa043-c3f6-40b5-afef-afe446ba8622" LABEL="Metadata" ADMID="uuid-e06159c9-0133-49d5-a0a8-46c6e774cfac" DMDID="uuid-f1fdfc02-22e3-4a0c-bcf5-3901db9fbb05"/>
             <div ID="uuid-1dabfd97-925e-487f-a6e6-1c323327c698" LABEL="Representations/representation_1">
                 <mptr xlink:type="simple" xlink:href="./representations/representation_1/METS.xml" LOCTYPE="URL" xlink:title="uuid-14138e4b-645b-41c4-ba17-adeac62e773c"/>
             </div>
