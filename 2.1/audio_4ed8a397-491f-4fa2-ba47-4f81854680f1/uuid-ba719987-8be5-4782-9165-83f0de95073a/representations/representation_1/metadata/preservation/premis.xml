@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<premis:premis version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:premis="http://www.loc.gov/premis/v3" xmlns:haObj="https://data.hetarchief.be/ns/object/" xsi:schemaLocation="http://www.loc.gov/premis/v3 https://www.loc.gov/standards/premis/premis.xsd">
+
+  <premis:object xsi:type="premis:representation">
+
+    <!-- Create PREMIS object for the representation itself -->
+    <premis:objectIdentifier>
+      <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
+      <premis:objectIdentifierValue>uuid-de3bd0a5-963a-40f1-a580-f33075a703d6</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+
+    <!-- relationship between representation and its file -->
+    <premis:relationship>
+      <premis:relationshipType>structural</premis:relationshipType>
+      <premis:relationshipSubType>includes</premis:relationshipSubType>
+      <!-- the file object (audio_master.wav) -->
+      <premis:relatedObjectIdentifier>
+        <premis:relatedObjectIdentifierType>UUID</premis:relatedObjectIdentifierType>
+        <premis:relatedObjectIdentifierValue>uuid-d37c7fbc-7fea-4eed-aa1e-3734461016e5</premis:relatedObjectIdentifierValue>
+      </premis:relatedObjectIdentifier>
+    </premis:relationship>
+
+    <!-- relationship between representation and its IE, as the master copy -->
+    <premis:relationship>
+      <premis:relationshipType>structural</premis:relationshipType>
+      <premis:relationshipSubType>is master copy of</premis:relationshipSubType>
+      <!-- the intellectual entity -->
+      <premis:relatedObjectIdentifier>
+        <premis:relatedObjectIdentifierType>UUID</premis:relatedObjectIdentifierType>
+        <premis:relatedObjectIdentifierValue>uuid-5bebd8c4-c517-4590-9403-5aef076c696c</premis:relatedObjectIdentifierValue>
+      </premis:relatedObjectIdentifier>
+    </premis:relationship>
+
+  </premis:object>
+
+  <premis:object xsi:type="premis:file">
+
+    <premis:objectIdentifier>
+      <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
+      <premis:objectIdentifierValue>uuid-d37c7fbc-7fea-4eed-aa1e-3734461016e5</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+
+    <!-- md5 / filesize: values skipped for now, placeholders only -->
+    <premis:objectCharacteristics>
+      <premis:fixity>
+        <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+        <premis:messageDigest>TODO</premis:messageDigest>
+      </premis:fixity>
+      <premis:size>0</premis:size>
+      <premis:format>
+        <premis:formatRegistry>
+          <premis:formatRegistryName>PRONOM</premis:formatRegistryName>
+          <premis:formatRegistryKey>fmt/6</premis:formatRegistryKey>
+          <premis:formatRegistryRole>specification</premis:formatRegistryRole>
+        </premis:formatRegistry>
+      </premis:format>
+    </premis:objectCharacteristics>
+
+    <!-- filename -->
+    <premis:originalName>audio_master.wav</premis:originalName>
+
+    <!-- relationship between file and its representation -->
+    <premis:relationship>
+      <premis:relationshipType>structural</premis:relationshipType>
+      <premis:relationshipSubType>is included in</premis:relationshipSubType>
+      <!-- representation_1 (digitized master) -->
+      <premis:relatedObjectIdentifier>
+        <premis:relatedObjectIdentifierType>UUID</premis:relatedObjectIdentifierType>
+        <premis:relatedObjectIdentifierValue>uuid-de3bd0a5-963a-40f1-a580-f33075a703d6</premis:relatedObjectIdentifierValue>
+      </premis:relatedObjectIdentifier>
+    </premis:relationship>
+
+  </premis:object>
+
+</premis:premis>

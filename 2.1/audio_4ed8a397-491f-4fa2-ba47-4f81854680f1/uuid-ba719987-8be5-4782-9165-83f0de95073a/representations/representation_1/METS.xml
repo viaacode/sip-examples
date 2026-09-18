@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<mets xmlns="http://www.loc.gov/METS/" xmlns:csip="https://DILCIS.eu/XML/METS/CSIPExtensionMETS" xmlns:sip="https://DILCIS.eu/XML/METS/SIPExtensionMETS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" OBJID="representation_1" TYPE="Audio – Physical Media" PROFILE="https://earksip.dilcis.eu/profile/E-ARK-SIP-v2-2-0.xml" csip:CONTENTINFORMATIONTYPE="OTHER" csip:OTHERCONTENTINFORMATIONTYPE="https://data.hetarchief.be/id/sip/2.1/basic" xsi:schemaLocation="https://www.w3.org./1999/xlink http://www.loc.gov/standards/xlink/xlink.xsd  http://www.loc.gov/METS/ https://www.loc.gov/standards/mets/mets.xsd https://DILCIS.eu/XML/METS/CSIPExtensionMETS https://earkcsip.dilcis.eu/schema/DILCISExtensionMETS.xsd https://DILCIS.eu/XML/METS/SIPExtensionMETS https://earksip.dilcis.eu/schema/DILCISExtensionSIPMETS.xsd">
+
+    <metsHdr CREATEDATE="2026-01-12T09:16:12.000+02:00" csip:OAISPACKAGETYPE="SIP"/>
+
+    <amdSec>
+        <digiprovMD ID="uuid-d4abc77a-3443-4645-b8be-86bd99736176">
+            <mdRef LOCTYPE="URL" MDTYPE="PREMIS" xlink:type="simple" xlink:href="./metadata/preservation/premis.xml" MIMETYPE="text/xml" SIZE="0" CREATED="2026-01-12T09:16:12.000+02:00" CHECKSUM="TODO" CHECKSUMTYPE="MD5" />
+        </digiprovMD>
+    </amdSec>
+
+    <fileSec ID="uuid-3c2b34b8-ea04-4637-a7bb-3ff5b92db44b">
+        <fileGrp USE="data" ID="uuid-eebbd6b3-8b8b-45b0-ba7e-2f00e0bd19ae">
+            <file ID="uuid-f0607f9b-f40f-42f6-b3ad-cb0976adde90" MIMETYPE="audio/x-wav" SIZE="0" CREATED="2026-01-12T09:16:12.000+02:00" CHECKSUM="TODO" CHECKSUMTYPE="MD5">
+                <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/audio_master.wav" />
+            </file>
+        </fileGrp>
+    </fileSec>
+
+    <structMap ID="uuid-b4c73164-276d-4021-b483-aa73b3964702" TYPE="PHYSICAL" LABEL="CSIP">
+        <div ID="uuid-00f5435e-41fe-402a-b312-b3dc3365a7e1">
+            <div ID="uuid-f6f960a6-c62a-49b7-9f2a-da79565ec87a" LABEL="Metadata"
+                ADMID="uuid-d4abc77a-3443-4645-b8be-86bd99736176" />
+            <div ID="uuid-e2bde67a-6fc6-419f-ace3-77a76a11c162" LABEL="data">
+                <fptr FILEID="uuid-f0607f9b-f40f-42f6-b3ad-cb0976adde90" />
+            </div>
+        </div>
+    </structMap>
+</mets>
