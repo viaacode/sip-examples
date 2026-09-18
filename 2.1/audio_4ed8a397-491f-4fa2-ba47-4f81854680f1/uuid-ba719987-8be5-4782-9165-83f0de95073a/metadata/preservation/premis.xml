@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<premis:premis version="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:premis="http://www.loc.gov/premis/v3" xmlns:haObj="https://data.hetarchief.be/ns/object/" xsi:schemaLocation="http://www.loc.gov/premis/v3 https://www.loc.gov/standards/premis/premis.xsd">
+
+  <!-- IE for the audio carrier as a whole -->
+  <premis:object xsi:type="premis:intellectualEntity">
+
+    <premis:objectIdentifier>
+      <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
+      <premis:objectIdentifierValue>uuid-5bebd8c4-c517-4590-9403-5aef076c696c</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+
+    <!-- PID -->
+    <premis:objectIdentifier>
+      <premis:objectIdentifierType>MEEMOO-PID</premis:objectIdentifierType>
+      <premis:objectIdentifierValue>b7k2mzq9wl</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+
+    <!-- relationship with the physical carrier representation -->
+    <premis:relationship>
+      <premis:relationshipType>structural</premis:relationshipType>
+      <premis:relationshipSubType>has carrier copy</premis:relationshipSubType>
+      <!-- physical carrier representation -->
+      <premis:relatedObjectIdentifier>
+        <premis:relatedObjectIdentifierType>UUID</premis:relatedObjectIdentifierType>
+        <premis:relatedObjectIdentifierValue>uuid-80149c0b-81a1-4cbf-864b-94e06ac23a45</premis:relatedObjectIdentifierValue>
+      </premis:relatedObjectIdentifier>
+    </premis:relationship>
+
+    <!-- relationship with representation_1: the digitized master file -->
+    <premis:relationship>
+      <premis:relationshipType>structural</premis:relationshipType>
+      <premis:relationshipSubType>has master copy</premis:relationshipSubType>
+      <!-- representation_1 (digitized master) -->
+      <premis:relatedObjectIdentifier>
+        <premis:relatedObjectIdentifierType>UUID</premis:relatedObjectIdentifierType>
+        <premis:relatedObjectIdentifierValue>uuid-de3bd0a5-963a-40f1-a580-f33075a703d6</premis:relatedObjectIdentifierValue>
+      </premis:relatedObjectIdentifier>
+    </premis:relationship>
+
+  </premis:object>
+
+
+  <!-- the object for the physical carrier representation is included here rather than in the
+  representations directory, since it doesn't include any files of its own -->
+  <premis:object xsi:type="premis:representation">
+
+    <premis:objectIdentifier>
+      <premis:objectIdentifierType>UUID</premis:objectIdentifierType>
+      <premis:objectIdentifierValue>uuid-80149c0b-81a1-4cbf-864b-94e06ac23a45</premis:objectIdentifierValue>
+    </premis:objectIdentifier>
+
+    <premis:significantProperties>
+      <premis:significantPropertiesExtension xmlns="https://data.hetarchief.be/ns/sip/">
+
+        <storedAt>
+          <physicalCarrier>
+            <identifier>A123_456_000078</identifier>
+            <medium>audiocassette</medium>
+            <brand>
+              <name xml:lang="nl">TDK</name>
+            </brand>
+            <preservationProblem>Slight print-through and mild tape hiss audible on side B.</preservationProblem>
+            <audioRecordingSpeed>4.75-cm-s</audioRecordingSpeed>
+            <audioNoiseReduction>Dolby B</audioNoiseReduction>
+            <iec60094Type>I</iec60094Type>
+          </physicalCarrier>
+        </storedAt>
+
+        <numberOfAudioTracks>2</numberOfAudioTracks>
+
+      </premis:significantPropertiesExtension>
+    </premis:significantProperties>
+
+    <!-- relationship between the carrier representation and its IE -->
+    <premis:relationship>
+      <premis:relationshipType>structural</premis:relationshipType>
+      <premis:relationshipSubType>is carrier copy of</premis:relationshipSubType>
+      <!-- the intellectual entity -->
+      <premis:relatedObjectIdentifier>
+        <premis:relatedObjectIdentifierType>UUID</premis:relatedObjectIdentifierType>
+        <premis:relatedObjectIdentifierValue>uuid-5bebd8c4-c517-4590-9403-5aef076c696c</premis:relatedObjectIdentifierValue>
+      </premis:relatedObjectIdentifier>
+    </premis:relationship>
+
+  </premis:object>
+
+  <!-- events defined:
+      - registration (source: carrier representation; implementer: CP)
+      - inspection (source: carrier representation; implementer: SP)
+      - repair (source: carrier representation; implementer: SP)
+      - cleaning (source: carrier representation; implementer: SP)
+      - baking (source: carrier representation; implementer: SP)
+      - digitization (source: carrier representation; outcome: representation_1 (digitized master);
+        implementer: SP; instrument: player/timebase corrector/AD converter/encoder hardware agents)
+      - quality-control (source: carrier representation; implementer: QC person)
+      - editing (source: representation_1)
+  -->
+
+  <!-- registration event; performed by the CP -->
+  <premis:event>
+    <premis:eventIdentifier>
+      <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
+      <premis:eventIdentifierValue>uuid-f1042ede-fc29-4e1b-a4e0-33f6b263d7ff</premis:eventIdentifierValue>
+    </premis:eventIdentifier>
+    <premis:eventType>registration</premis:eventType>
+    <premis:eventDateTime>2026-01-12</premis:eventDateTime>
+    <premis:eventOutcomeInformation>
+      <premis:eventOutcome>success</premis:eventOutcome>
+    </premis:eventOutcomeInformation>
+    <!-- Regionaal Klankarchief (CP) -->
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-c234f99c-8025-4ed1-b9da-25ba2e8b780b</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>implementer</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
+    <!-- physical carrier representation -->
+    <premis:linkingObjectIdentifier>
+      <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+      <premis:linkingObjectIdentifierValue>uuid-80149c0b-81a1-4cbf-864b-94e06ac23a45</premis:linkingObjectIdentifierValue>
+      <premis:linkingObjectRole>source</premis:linkingObjectRole>
+    </premis:linkingObjectIdentifier>
+  </premis:event>
+
+  <!-- inspection event; performed by the SP -->
+  <premis:event>
+    <premis:eventIdentifier>
+      <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
+      <premis:eventIdentifierValue>uuid-645425ff-e102-446b-ad45-a4bd5aed4782</premis:eventIdentifierValue>
+    </premis:eventIdentifier>
+    <premis:eventType>inspection</premis:eventType>
+    <premis:eventDateTime>2023-03-02</premis:eventDateTime>
+    <premis:eventDetailInformation>
+      <premis:eventDetail>Tape shows slight print-through; otherwise playable.</premis:eventDetail>
+    </premis:eventDetailInformation>
+    <premis:eventOutcomeInformation>
+      <premis:eventOutcome>warning</premis:eventOutcome>
+    </premis:eventOutcomeInformation>
+    <!-- AudioRestore Services (SP) -->
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-ed60b645-4759-4739-ab25-d086fb1c74e7</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>implementer</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
+    <!-- physical carrier representation -->
+    <premis:linkingObjectIdentifier>
+      <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+      <premis:linkingObjectIdentifierValue>uuid-80149c0b-81a1-4cbf-864b-94e06ac23a45</premis:linkingObjectIdentifierValue>
+      <premis:linkingObjectRole>source</premis:linkingObjectRole>
+    </premis:linkingObjectIdentifier>
+  </premis:event>
+
+  <!-- repair event; performed by the SP -->
+  <premis:event>
+    <premis:eventIdentifier>
+      <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
+      <premis:eventIdentifierValue>uuid-d8c086bf-b2aa-455f-8261-e363af9c3461</premis:eventIdentifierValue>
+    </premis:eventIdentifier>
+    <premis:eventType>repair</premis:eventType>
+    <premis:eventDateTime>2023-03-05</premis:eventDateTime>
+    <premis:eventDetailInformation>
+      <premis:eventDetail>Spliced one break near tape start.</premis:eventDetail>
+    </premis:eventDetailInformation>
+    <premis:eventOutcomeInformation>
+      <premis:eventOutcome>success</premis:eventOutcome>
+    </premis:eventOutcomeInformation>
+    <!-- AudioRestore Services (SP) -->
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-ed60b645-4759-4739-ab25-d086fb1c74e7</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>implementer</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
+    <!-- physical carrier representation -->
+    <premis:linkingObjectIdentifier>
+      <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+      <premis:linkingObjectIdentifierValue>uuid-80149c0b-81a1-4cbf-864b-94e06ac23a45</premis:linkingObjectIdentifierValue>
+      <premis:linkingObjectRole>source</premis:linkingObjectRole>
+    </premis:linkingObjectIdentifier>
+  </premis:event>
+
+  <!-- cleaning event; performed by the SP -->
+  <premis:event>
+    <premis:eventIdentifier>
+      <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
+      <premis:eventIdentifierValue>uuid-3fc3d3b4-dc8b-4dfb-8c22-5e8b18ae149e</premis:eventIdentifierValue>
+    </premis:eventIdentifier>
+    <premis:eventType>cleaning</premis:eventType>
+    <premis:eventDateTime>2023-03-06</premis:eventDateTime>
+    <premis:eventDetailInformation>
+      <premis:eventDetail>Cleaned with archival tape cleaner prior to playback.</premis:eventDetail>
+    </premis:eventDetailInformation>
+    <premis:eventOutcomeInformation>
+      <premis:eventOutcome>success</premis:eventOutcome>
+    </premis:eventOutcomeInformation>
+    <!-- AudioRestore Services (SP) -->
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-ed60b645-4759-4739-ab25-d086fb1c74e7</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>implementer</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
+    <!-- physical carrier representation -->
+    <premis:linkingObjectIdentifier>
+      <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+      <premis:linkingObjectIdentifierValue>uuid-80149c0b-81a1-4cbf-864b-94e06ac23a45</premis:linkingObjectIdentifierValue>
+      <premis:linkingObjectRole>source</premis:linkingObjectRole>
+    </premis:linkingObjectIdentifier>
+  </premis:event>
+
+  <!-- baking event; performed by the SP -->
+  <premis:event>
+    <premis:eventIdentifier>
+      <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
+      <premis:eventIdentifierValue>uuid-ebba8dfd-37fb-4fb3-b4cc-a7c771d9d0dd</premis:eventIdentifierValue>
+    </premis:eventIdentifier>
+    <premis:eventType>baking</premis:eventType>
+    <premis:eventDateTime>2023-03-07</premis:eventDateTime>
+    <premis:eventDetailInformation>
+      <premis:eventDetail>Baked at 54°C for 8 hours to address sticky-shed syndrome.</premis:eventDetail>
+    </premis:eventDetailInformation>
+    <premis:eventOutcomeInformation>
+      <premis:eventOutcome>success</premis:eventOutcome>
+    </premis:eventOutcomeInformation>
+    <!-- AudioRestore Services (SP) -->
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-ed60b645-4759-4739-ab25-d086fb1c74e7</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>implementer</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
+    <!-- physical carrier representation -->
+    <premis:linkingObjectIdentifier>
+      <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+      <premis:linkingObjectIdentifierValue>uuid-80149c0b-81a1-4cbf-864b-94e06ac23a45</premis:linkingObjectIdentifierValue>
+      <premis:linkingObjectRole>source</premis:linkingObjectRole>
+    </premis:linkingObjectIdentifier>
+  </premis:event>
+
+  <!-- digitization event; performed by the SP. The 12 player/timebase-corrector/AD/encoder fields
+  aren't exposed as their own MediaHaven fields today - per the mapping sheet's own "Opmerkingen"
+  column ("concatenate player info into the agent name of a new agent"), each hardware role is
+  modeled here as its own premis:agent, linked to this event with the "instrument" role, with its
+  agentName holding the concatenated serial number / manufacturer / model. -->
+  <premis:event>
+    <premis:eventIdentifier>
+      <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
+      <premis:eventIdentifierValue>uuid-708e4e54-daca-442b-b5a9-41c0204ceb6c</premis:eventIdentifierValue>
+    </premis:eventIdentifier>
+    <premis:eventType>digitization</premis:eventType>
+    <!-- kept a time component here (unlike the other events) since it's the only source for
+    digitization_time -->
+    <premis:eventDateTime>2023-04-18T14:32:00</premis:eventDateTime>
+    <premis:eventDetailInformation>
+      <premis:eventDetail>Digitized in real time at 4.75 cm/s; no dropouts observed.
+
+player_serial_number: STU-8821
+player_manufacturer: Studer
+player_model: A810
+timebase_corrector_serial_number: TBC-4471
+timebase_corrector_manufacturer: FOR-A
+timebase_corrector_model: FA-125
+AD_serial_number: AD-2290
+AD_manufacturer: Prism Sound
+AD_model: ADA-8XR
+encoder_serial_number: ENC-5518
+encoder_manufacturer: Merging Technologies
+encoder_model: Pyramix</premis:eventDetail>
+    </premis:eventDetailInformation>
+    <premis:eventOutcomeInformation>
+      <premis:eventOutcome>success</premis:eventOutcome>
+    </premis:eventOutcomeInformation>
+
+    <!-- AudioRestore Services (SP) -->
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-ed60b645-4759-4739-ab25-d086fb1c74e7</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>implementer</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
+
+    <!-- player_serial_number / player_manufacturer / player_model -->
+    <!-- Studer A810 (player) -->
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-9cf4fa43-ccbc-4ebe-900d-deaf8ef2a50a</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>instrument</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
+
+    <!-- timebase_corrector_serial_number / timebase_corrector_manufacturer / timebase_corrector_model -->
+    <!-- FOR-A FA-125 (timebase corrector) -->
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-bcc7dc04-17a4-4f97-b973-108144e2dbe0</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>instrument</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
+
+    <!-- AD_serial_number / AD_manufacturer / AD_model -->
+    <!-- Prism Sound ADA-8XR (AD converter) -->
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-8f17833f-cdd2-4592-9bae-567b752a3f13</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>instrument</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
+
+    <!-- encoder_serial_number / encoder_manufacturer / encoder_model -->
+    <!-- Merging Technologies Pyramix (encoder) -->
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-87de1b93-0dcc-4093-b06a-8d0338dacefa</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>instrument</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
+
+    <!-- source: the physical carrier -->
+    <!-- physical carrier representation -->
+    <premis:linkingObjectIdentifier>
+      <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+      <premis:linkingObjectIdentifierValue>uuid-80149c0b-81a1-4cbf-864b-94e06ac23a45</premis:linkingObjectIdentifierValue>
+      <premis:linkingObjectRole>source</premis:linkingObjectRole>
+    </premis:linkingObjectIdentifier>
+
+    <!-- outcome: the digitized master representation (representation_1) -->
+    <!-- representation_1 (digitized master) -->
+    <premis:linkingObjectIdentifier>
+      <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+      <premis:linkingObjectIdentifierValue>uuid-de3bd0a5-963a-40f1-a580-f33075a703d6</premis:linkingObjectIdentifierValue>
+      <premis:linkingObjectRole>outcome</premis:linkingObjectRole>
+    </premis:linkingObjectIdentifier>
+
+  </premis:event>
+
+  <!-- quality-control event; performed by the SP. qc_by resolves from whichever
+  linkingAgentIdentifier on this event carries the implementer role - here that is the QC person
+  directly, matching the mapping sheet's own XPath for qc_by. -->
+  <premis:event>
+    <premis:eventIdentifier>
+      <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
+      <premis:eventIdentifierValue>uuid-1b5f1071-8a58-49a4-8d4c-92f920ac523a</premis:eventIdentifierValue>
+    </premis:eventIdentifier>
+    <premis:eventType>quality-control</premis:eventType>
+    <premis:eventDateTime>2023-04-20</premis:eventDateTime>
+    <premis:eventDetailInformation>
+      <premis:eventDetail>Audio levels and continuity verified against source log.</premis:eventDetail>
+    </premis:eventDetailInformation>
+    <premis:eventOutcomeInformation>
+      <premis:eventOutcome>success</premis:eventOutcome>
+    </premis:eventOutcomeInformation>
+    <!-- Anke Peeters (QC) -->
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-40c81d80-5f2a-44b4-a1eb-33460f6e09b7</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>implementer</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
+    <!-- physical carrier representation -->
+    <premis:linkingObjectIdentifier>
+      <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+      <premis:linkingObjectIdentifierValue>uuid-80149c0b-81a1-4cbf-864b-94e06ac23a45</premis:linkingObjectIdentifierValue>
+      <premis:linkingObjectRole>source</premis:linkingObjectRole>
+    </premis:linkingObjectIdentifier>
+  </premis:event>
+
+  <!-- editing event; performed by the SP. The creator's common.py doesn't yet expose this as its
+  own Dynamic monitoring fields (audio-sip-mapping-audit.md, "editing_outcome/_note/_date (missing)")
+  - that gap is downstream of the SIP, so it's still modeled correctly here. -->
+  <premis:event>
+    <premis:eventIdentifier>
+      <premis:eventIdentifierType>UUID</premis:eventIdentifierType>
+      <premis:eventIdentifierValue>uuid-8294ed0a-d295-441f-b50d-83c235a61a76</premis:eventIdentifierValue>
+    </premis:eventIdentifier>
+    <premis:eventType>editing</premis:eventType>
+    <premis:eventDateTime>2023-04-19</premis:eventDateTime>
+    <premis:eventDetailInformation>
+      <premis:eventDetail>Total duration digitized carrier: 00:42:13:00</premis:eventDetail>
+    </premis:eventDetailInformation>
+    <premis:eventOutcomeInformation>
+      <premis:eventOutcome>success</premis:eventOutcome>
+    </premis:eventOutcomeInformation>
+    <!-- AudioRestore Services (SP) -->
+    <premis:linkingAgentIdentifier>
+      <premis:linkingAgentIdentifierType>UUID</premis:linkingAgentIdentifierType>
+      <premis:linkingAgentIdentifierValue>uuid-ed60b645-4759-4739-ab25-d086fb1c74e7</premis:linkingAgentIdentifierValue>
+      <premis:linkingAgentRole>implementer</premis:linkingAgentRole>
+    </premis:linkingAgentIdentifier>
+    <!-- representation_1 (digitized master) -->
+    <premis:linkingObjectIdentifier>
+      <premis:linkingObjectIdentifierType>UUID</premis:linkingObjectIdentifierType>
+      <premis:linkingObjectIdentifierValue>uuid-de3bd0a5-963a-40f1-a580-f33075a703d6</premis:linkingObjectIdentifierValue>
+      <premis:linkingObjectRole>source</premis:linkingObjectRole>
+    </premis:linkingObjectIdentifier>
+  </premis:event>
+
+  <!-- reference to the content partner (CP) -->
+  <premis:agent>
+    <premis:agentIdentifier>
+      <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+      <premis:agentIdentifierValue>uuid-c234f99c-8025-4ed1-b9da-25ba2e8b780b</premis:agentIdentifierValue>
+    </premis:agentIdentifier>
+    <premis:agentIdentifier>
+      <premis:agentIdentifierType>MEEMOO-OR-ID</premis:agentIdentifierType>
+      <premis:agentIdentifierValue>OR-4t9jm2q</premis:agentIdentifierValue>
+    </premis:agentIdentifier>
+    <premis:agentName>Regionaal Klankarchief</premis:agentName>
+    <premis:agentType>organization</premis:agentType>
+  </premis:agent>
+
+  <!-- reference to the service provider (SP) -->
+  <premis:agent>
+    <premis:agentIdentifier>
+      <premis:agentIdentifierType>MEEMOO-OR-ID</premis:agentIdentifierType>
+      <premis:agentIdentifierValue>OR-8k3vw1p</premis:agentIdentifierValue>
+    </premis:agentIdentifier>
+    <premis:agentIdentifier>
+      <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+      <premis:agentIdentifierValue>uuid-ed60b645-4759-4739-ab25-d086fb1c74e7</premis:agentIdentifierValue>
+    </premis:agentIdentifier>
+    <premis:agentName>AudioRestore Services</premis:agentName>
+    <premis:agentType>organization</premis:agentType>
+  </premis:agent>
+
+  <!-- qc_by: the person who performed quality control -->
+  <premis:agent>
+    <premis:agentIdentifier>
+      <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+      <premis:agentIdentifierValue>uuid-40c81d80-5f2a-44b4-a1eb-33460f6e09b7</premis:agentIdentifierValue>
+    </premis:agentIdentifier>
+    <premis:agentName>Anke Peeters</premis:agentName>
+    <premis:agentType>person</premis:agentType>
+  </premis:agent>
+
+  <!-- player_* -->
+  <premis:agent>
+    <premis:agentIdentifier>
+      <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+      <premis:agentIdentifierValue>uuid-9cf4fa43-ccbc-4ebe-900d-deaf8ef2a50a</premis:agentIdentifierValue>
+    </premis:agentIdentifier>
+    <premis:agentName>Studer - A810 - Serial STU-8821</premis:agentName>
+    <premis:agentType>hardware</premis:agentType>
+  </premis:agent>
+
+  <!-- timebase_corrector_* -->
+  <premis:agent>
+    <premis:agentIdentifier>
+      <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+      <premis:agentIdentifierValue>uuid-bcc7dc04-17a4-4f97-b973-108144e2dbe0</premis:agentIdentifierValue>
+    </premis:agentIdentifier>
+    <premis:agentName>FOR-A - FA-125 - Serial TBC-4471</premis:agentName>
+    <premis:agentType>hardware</premis:agentType>
+  </premis:agent>
+
+  <!-- AD_* -->
+  <premis:agent>
+    <premis:agentIdentifier>
+      <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+      <premis:agentIdentifierValue>uuid-8f17833f-cdd2-4592-9bae-567b752a3f13</premis:agentIdentifierValue>
+    </premis:agentIdentifier>
+    <premis:agentName>Prism Sound - ADA-8XR - Serial AD-2290</premis:agentName>
+    <premis:agentType>hardware</premis:agentType>
+  </premis:agent>
+
+  <!-- encoder_* -->
+  <premis:agent>
+    <premis:agentIdentifier>
+      <premis:agentIdentifierType>UUID</premis:agentIdentifierType>
+      <premis:agentIdentifierValue>uuid-87de1b93-0dcc-4093-b06a-8d0338dacefa</premis:agentIdentifierValue>
+    </premis:agentIdentifier>
+    <premis:agentName>Merging Technologies - Pyramix - Serial ENC-5518</premis:agentName>
+    <premis:agentType>hardware</premis:agentType>
+  </premis:agent>
+
+</premis:premis>

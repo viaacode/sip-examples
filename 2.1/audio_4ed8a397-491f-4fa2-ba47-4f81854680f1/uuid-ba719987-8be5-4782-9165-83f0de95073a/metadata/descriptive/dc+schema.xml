@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns="https://data.hetarchief.be/id/sip/2.1/basic" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xs="http://www.w3.org/2001/XMLSchema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edtf="http://id.loc.gov/datatypes/edtf/">
+
+  <!-- UUID of the intellectual eneity -->
+  <dcterms:identifier>uuid-5bebd8c4-c517-4590-9403-5aef076c696c</dcterms:identifier>
+
+  <dcterms:title xml:lang="nl">Interview met een dialectspreker</dcterms:title>
+  <dcterms:description xml:lang="nl">Opname van een interview, overgezet vanaf een compactcassette.</dcterms:description>
+
+  <dcterms:type>Audio</dcterms:type>
+  <dcterms:format>audio</dcterms:format>
+
+  <dcterms:created xsi:type="edtf:EDTF-level1">1987-06-15</dcterms:created>
+
+  <dcterms:subject xml:lang="nl">Dialect</dcterms:subject>
+  <dcterms:subject xml:lang="nl">Mondelinge geschiedenis</dcterms:subject>
+
+</metadata>
