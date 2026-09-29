@@ -9,15 +9,15 @@
   </mods:titleInfo>
   <mods:identifier>uuid-e6a138e5-a0fc-41d3-a912-9491a3502f57</mods:identifier>
   <mods:typeOfResource>newspaper edition</mods:typeOfResource>
-  <mods:genre authority="marcgt" authorityURI="https://www.loc.gov/standards/valuelist/marcgt.html">newspaper</mods:genre>
-  <mods:genre authority="ngl" authorityURI="https://www.lib.washington.edu/gmm/collections/mcnews/ngl">amateur newspapers</mods:genre>
+  <mods:genre>newspaper</mods:genre>
+  <mods:genre>amateur newspapers</mods:genre>
   <mods:originInfo>
     <mods:issuance>serial</mods:issuance>
     <mods:dateIssued encoding="edtf">XXXX</mods:dateIssued>
     <mods:dateCreated encoding="edtf">2022-07-02</mods:dateCreated>
     <mods:place>
       <mods:placeTerm type="text">Ghent, Belgium</mods:placeTerm>
-      <mods:placeTerm type="code" authority="iso3166" authorityURI="https://www.iso.org/iso-3166-country-codes.html">BEL</mods:placeTerm>
+      <mods:placeTerm type="code">BEL</mods:placeTerm>
     </mods:place>
   </mods:originInfo>
   <mods:subject>
@@ -29,7 +29,7 @@
     <mods:identifier type="abraham_uri" typeURI="https://anet.be">https://anet.be/record/opacbnc/c:bnc:99999/N</mods:identifier>
   </mods:relatedItem>
   <mods:physicalDescription>
-    <mods:form authority="marcform" authorityURI="https://www.loc.gov/standards/valuelist/marcform.html">print</mods:form>
+    <mods:form>print</mods:form>
     <mods:extent unit="pages">3</mods:extent>
   </mods:physicalDescription>
   <mods:note type="license">VIAA-PUBLIEK-METADATA-LTD</mods:note>

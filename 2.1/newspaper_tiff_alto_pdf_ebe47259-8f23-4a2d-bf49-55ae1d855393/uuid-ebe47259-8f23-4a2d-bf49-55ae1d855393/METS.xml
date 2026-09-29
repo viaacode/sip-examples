@@ -21,7 +21,7 @@
 
     <!-- ref to descriptive metadata about IE (newspaper edition): MODS format -->
     <dmdSec ID="uuid-a4440db5-87f9-45af-819a-b966ca7f10fa" CREATED="2022-02-16T10:01:15.014+02:00">
-        <mdRef LOCTYPE="URL" MDTYPE="MODS" xlink:type="simple" xlink:href="./metadata/descriptive/mods.xml" MIMETYPE="text/xml" SIZE="2056" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="53eaf9cfc0cf9ba3f147f196823eb3ff" CHECKSUMTYPE="MD5"/>
+        <mdRef LOCTYPE="URL" MDTYPE="MODS" xlink:type="simple" xlink:href="./metadata/descriptive/mods.xml" MIMETYPE="text/xml" SIZE="1708" CREATED="2022-02-16T10:01:15.014+02:00" CHECKSUM="1f3d89ad7fac92e85ee1234e0f1e83e3" CHECKSUMTYPE="MD5"/>
     </dmdSec>
 
     <!-- ref to the PREMIS metadata about IE/package -->
