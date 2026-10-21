@@ -48,7 +48,7 @@
                 ADMID="uuid-03f8be45-bbaa-4e22-a0c0-bdc4e950acef" />
             <div ID="uuid-ee49d454-b4ad-4412-8fce-c0bc27327a32" LABEL="data">
                 <!-- File pointers to file IDs in mets/fileSec/fileGrp[@USE="data"]/file/@ID -->
-                <fptr FILEID="uuid-07cc2888-282f-4361-9e32-20f309a4340b" />
+                <fptr FILEID="uuid-10a2f17a-323a-4d77-97c3-29075241c711" />
             </div>
         </div>
     </structMap>

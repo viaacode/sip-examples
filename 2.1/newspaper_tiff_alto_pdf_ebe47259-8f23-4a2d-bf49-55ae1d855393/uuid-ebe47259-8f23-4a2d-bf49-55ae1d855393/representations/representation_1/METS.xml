@@ -24,12 +24,16 @@
                 CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/18950101_0001.tiff" />
             </file>
+        </fileGrp>
+        <fileGrp USE="data" ID="uuid-10449b9c-21be-4cd5-a489-5f1f9f8a7ddc">
             <!-- dummy txt file filling in for tiff file -->
             <file ID="uuid-3309e853-bf0f-4d19-ae6a-5e14911e3662" MIMETYPE="image/tiff" SIZE="8459"
                 CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="cdc7a99a7a6f1fb97c09cb608f116050"
                 CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/18950101_0002.tiff" />
             </file>
+        </fileGrp>
+        <fileGrp USE="data" ID="uuid-ebde5e76-7b0d-4c48-9b62-300541e7a967">
             <!-- dummy txt file filling in for tiff file -->
             <file ID="uuid-4ef96979-4abf-4af0-8156-d04fdd2ff7c3" MIMETYPE="image/tiff" SIZE="8459"
                 CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="cdc7a99a7a6f1fb97c09cb608f116050"
@@ -48,13 +52,13 @@
             <!-- added divs with order attributes for page order -->
             <div ID="uuid-41bacec1-1d6c-467a-8020-7114115562a8" LABEL="data">
                 <div ID="uuid-47e52361-8508-4ae1-ad8c-0e1f5382065e" TYPE="page" ORDER="1">
-                    <fptr FILEID="uuid-9850cb03-b1fd-4661-a4fb-e3dfcf25e9e5" />
+                    <fptr FILEID="uuid-28486d80-7110-4132-b4ad-cc5a93d0f277" />
                 </div>
                 <div ID="uuid-09a0f26d-596b-4f78-ad23-3d3a594afaa6" TYPE="page" ORDER="2">
-                    <fptr FILEID="uuid-3309e853-bf0f-4d19-ae6a-5e14911e3662" />
+                    <fptr FILEID="uuid-10449b9c-21be-4cd5-a489-5f1f9f8a7ddc" />
                 </div>
                 <div ID="uuid-eebd6f2a-f06e-4c5f-9c52-fd58e784eaff" TYPE="page" ORDER="3">
-                    <fptr FILEID="uuid-4ef96979-4abf-4af0-8156-d04fdd2ff7c3" />
+                    <fptr FILEID="uuid-ebde5e76-7b0d-4c48-9b62-300541e7a967" />
                 </div>
             </div>
         </div>

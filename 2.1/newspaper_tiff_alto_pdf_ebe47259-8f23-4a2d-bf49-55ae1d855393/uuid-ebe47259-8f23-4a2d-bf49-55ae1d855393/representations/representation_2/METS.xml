@@ -15,10 +15,14 @@
             <file ID="uuid-fd5fec40-a696-40d4-be7b-e0a01a2bf0e3" MIMETYPE="application/xml" SIZE="204" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="dc830f35abcb2b10c2ef05821daa2622" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/18950101_0001.xml" />
             </file>
+        </fileGrp>
+        <fileGrp USE="data" ID="uuid-1c1d3a5d-a583-4861-a15e-c7901c9b94fe">
             <!-- dummy txt file filling in for alto xml file -->
             <file ID="uuid-d63b064f-7fed-4981-983c-6c99c03fd4e5" MIMETYPE="application/xml" SIZE="204" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="33efbcfe0d6350733cbab49aa7495095" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/18950101_0002.xml" />
             </file>
+        </fileGrp>
+        <fileGrp USE="data" ID="uuid-730030f1-fb44-4d0f-8f51-a4701088f687">
             <!-- dummy txt file filling in for alto xml file -->
             <file ID="uuid-cfd8a279-177c-48ae-9034-66b0a6f8daee" MIMETYPE="application/xml" SIZE="204" CREATED="2022-02-16T10:02:37.009+02:00" CHECKSUM="3aac995d8de8f24a61266b7dedd4eace" CHECKSUMTYPE="MD5">
                 <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="./data/18950101_0003.xml" />
@@ -33,13 +37,13 @@
             <!-- added divs with order attributes for page order -->
             <div ID="uuid-12aff14b-07b4-4ca5-b053-572f6d187e58" LABEL="data">
                 <div ID="uuid-8617a575-a76d-4d21-9fb9-7a3a0532d3f1" TYPE="page" ORDER="1">
-                    <fptr FILEID="uuid-fd5fec40-a696-40d4-be7b-e0a01a2bf0e3" />
+                    <fptr FILEID="uuid-7b0ef544-6ddd-42c9-8d61-b1fbc98f4164" />
                 </div>
                 <div ID="uuid-cc1db76a-3da4-474d-b41c-fbc0af5df676" TYPE="page" ORDER="2">
-                    <fptr FILEID="uuid-d63b064f-7fed-4981-983c-6c99c03fd4e5" />
+                    <fptr FILEID="uuid-1c1d3a5d-a583-4861-a15e-c7901c9b94fe" />
                 </div>
                 <div ID="uuid-ac284aeb-3bab-4ced-b5a3-426f2e5088c0" TYPE="page" ORDER="3">
-                    <fptr FILEID="uuid-cfd8a279-177c-48ae-9034-66b0a6f8daee" />
+                    <fptr FILEID="uuid-730030f1-fb44-4d0f-8f51-a4701088f687" />
                 </div>
             </div>
         </div>
